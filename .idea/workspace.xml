@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8facac07-1759-41d9-8ab9-65d5580ec7e2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/projects/_project.html.erb" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/book_skipgram_thumbnail.png" afterPath="$PROJECT_DIR$/app/assets/images/visual_recommender_thumbnail.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/myWebsite.iml" afterPath="$PROJECT_DIR$/.idea/myWebsite.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/projects_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/index.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/projects/visual_recommender.html.erb" afterPath="$PROJECT_DIR$/app/views/projects/visual_recommender.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -68,12 +59,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="visual_recommender.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="visual_recommender.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/projects/visual_recommender.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -142,6 +146,7 @@
         <option value="$PROJECT_DIR$/app/views/projects/_project.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/projects_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/projects/visual_recommender.html.erb" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -381,12 +386,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1509749883176</updated>
-      <workItem from="1509749884326" duration="7418000" />
+      <workItem from="1509749884326" duration="7502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7418000" />
+    <option name="totallyTimeSpent" value="7502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1242" y="88" width="1201" height="1187" extended-state="0" />
@@ -523,6 +528,17 @@
         <state relative-caret-position="60">
           <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
