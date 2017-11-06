@@ -1,10 +1,6 @@
-var nebula = {
-    type: 'image',
-    url:'carina_nebula_wide.jpg'
-};
 
 var viewer = OpenSeadragon({
     id: "openseadragon-viewer",
-    prefixUrl: "/openseadragon/images/",
-    tileSources: nebula
+    prefixUrl: "/assets/openseadragon-icon/",
+    tileSources: "/assets/book_recommendation_skipgram.dzi"
 });
