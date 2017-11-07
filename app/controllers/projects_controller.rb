@@ -7,6 +7,17 @@ class ProjectsController < ApplicationController
 
 
   def visual_recommender
-    @project=Project.find(params[:project_id])
+    if params[:'books-search-txt']
+      @book=Book.find(params[:'books-search-txt']).first
+      @neighbors=Book.find_neighbors(@book.title) if @book
+    end
   end
+
+  def visual_recommender_book_search
+    respond_to do |format|
+      format.html
+      format.json { @books = Book.search(params[:term]) }
+    end
+  end
+
 end

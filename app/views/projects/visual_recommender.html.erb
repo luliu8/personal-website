@@ -1,14 +1,28 @@
 
-<h1><%= @project.title %></h1>
+<h1>Visual Recommender</h1>
 
-<p> <%= @project.description %> </p>
+<p> This is project description</p>
+
+<%= form_tag "/projects/visual_recommender", method: "get"  do %>
+    <label for="books-search-txt">Pick a book: </label>
+    <%= text_field_tag 'books-search-txt' %>
+    <%= submit_tag 'Go!' %>
+<% end %>
 
 
+<% if @book %>
+    <p class="testing log">
+      <%= @book.title %>
+    </p>
 
+    <table class="nearest-neighbors">
+      <caption>Most Similar Books:</caption>
+      <% @neighbors.each do |n| %>
+          <tr><td><%= n.title %></td></tr>
+      <% end %>
+    </table>
+<% end %>
 
-
-
-
-<div id="openseadragon-viewer" style="width: 800px; height: 600px;"></div>
+<div id="openseadragon-viewer" style="width: 600px; height: 800px;"></div>
 
 <%= javascript_include_tag('visual_recommender') %>
