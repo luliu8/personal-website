@@ -1,4 +1,27 @@
 
+<script>
+    $( document ).ready(function() {
+        var viewer = OpenSeadragon({
+            id: "openseadragon-viewer",
+            prefixUrl: "/assets/openseadragon-icon/",
+            tileSources: "/assets/book_recommendation_skipgram.dzi",
+            showNavigator: true
+        });
+        viewer.addHandler('open', function () {
+            if (gon.zoom_center !== -1) {
+                imagex=gon.zoom_center[0];
+                imagey=gon.zoom_center[1];
+                viewer.viewport.fitBounds(viewer.viewport.imageToViewportRectangle(imagex-225,imagey-300,600,800), true);
+            }
+        });
+
+        $("input[id='books-search-txt']").autocomplete({
+            source: '/projects/visual_recommender_book_search'
+        });
+    })
+</script>
+
+
 <h1>Visual Recommender</h1>
 
 <p> This is project description</p>
@@ -11,12 +34,8 @@
 
 
 <% if @book %>
-    <p class="testing log">
-      <%= @book.title %>
-    </p>
-
     <table class="nearest-neighbors">
-      <caption>Most Similar Books:</caption>
+      <caption>10 Most Similar Books:</caption>
       <% @neighbors.each do |n| %>
           <tr><td><%= n.title %></td></tr>
       <% end %>
@@ -24,5 +43,3 @@
 <% end %>
 
 <div id="openseadragon-viewer" style="width: 600px; height: 800px;"></div>
-
-<%= javascript_include_tag('visual_recommender') %>

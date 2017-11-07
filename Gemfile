@@ -57,3 +57,5 @@ gem 'sprockets-rails', '~>2.3.3'
 
 gem 'jquery-ui-rails'
 gem 'jquery-rails'
+
+gem 'gon'
