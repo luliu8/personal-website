@@ -22,10 +22,49 @@
 </script>
 
 
-<h1>Visual Recommender</h1>
+<article>
+  <h1> a Visual Recommender trained on Wikipedia data using Word2Vec skip-grams model</h1>
+  <h3> Data </h3>
+  <p>
+    Almost every Wikipedia page contain many links to other entities.
+    Relationships among entities could be derived from the number of references shared, as well as
+    whether or not they share any references.
 
-<p> This is project description</p>
+    Wikimedia.org provide a complete data dump of all wiki pages which can be parsed and stored
+    in the database.
+  </p>
 
+  <h3> Model </h3>
+  <p>
+    a simple co-occurrence matrix could be generated.
+    finding the similarity between entities will simply be calculating the jaccard distance between two
+    vectors.
+    however, high dimensionality would involve large amount of calculation when we try to find relationships
+    among all entities.
+
+    Word2Vec skip grams model produce word embeddings by training a neural network for a specific task.
+    the generated Embedding vectors use distributed representation to represent each entity, which greatly reduce
+    the number of dimensions.
+
+    For this project, the task would be to determine if two entities share common references.
+  </p>
+
+  <h3> Implementation </h3>
+  <a href="https://github.com/luliu31415926/visual_recommender/blob/master/.ipynb_checkpoints/Book_Recommendations-Skipgram-checkpoint.ipynb">source code is on Github</a>
+  <p>
+    the Word2Vec model was trained using KERAS API in Python Jupyter notebook
+    data was stored in postgreSQL database
+    demo is hosted online with Ruby on Rails with openseadragon API
+
+    using wikistats view count , I selected the top 500 wiki books to train as a demo.
+    after reducing the dimension to 20, I mapped the embedding vectors to 2d using TSNE model for visualization
+
+    the result is not perfect but reasonally well, you can play with it in the demo below.
+    (the images are not the most accurate as they are retrieved from wiki data)
+  </p>
+
+</article>
+<h3> Demo </h3>
 <%= form_tag "/projects/visual_recommender", method: "get"  do %>
     <label for="books-search-txt">Pick a book: </label>
     <%= text_field_tag 'books-search-txt' %>

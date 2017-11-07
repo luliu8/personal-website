@@ -1,7 +1,5 @@
-<h1>Listing My Projects</h1>
-<p>here will display a list of project links</p>
+<h1>My Projects</h1>
 <div class="projects-container">
-  here will dynamically generate a list of projects with thumbnails and project description
   <% @projects.each do |project| %>
     <%= render partial: 'project', locals: {project: project}%>
   <% end %>
