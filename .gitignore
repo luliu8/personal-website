@@ -16,17 +16,14 @@
 /tmp/*
 /log/.keep
 !/tmp/.keep
-/.idea/*
+.idea/*
+
 
 #Ignore all asset files in public folder
 /public/assets/*
-
 
 /node_modules
 /yarn-error.log
 
 .byebug_history
 
-public/assets/book_recommendation_skipgram_files/13/11_7-2c90842050b28c46700b10b83737548f78552c705b74fd3c7634f0a4a29a45a9.png
-
-public/assets/book_recommendation_skipgram_files/13/11_5-1347f4da5cc7c1fda2cf0aefa4cde81272d49888851126dd01165fe2187562a7.png
