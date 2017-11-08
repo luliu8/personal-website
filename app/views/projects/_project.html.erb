@@ -1,8 +1,8 @@
 <div class="row">
-  <div class="col-lg-4">
+  <div class="col-lg-4 col-md-4">
     <%= link_to(image_tag(project.image,width:'300'), {:controller => 'projects', :action=>project.path}) %>
   </div>
-  <div class="col-lg-8">
+  <div class="col-lg-8 col-md-8">
     <h2>
       <%= link_to(project.title, {:controller => 'projects', :action=>project.path})%>
     </h2>
