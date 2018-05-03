@@ -16,7 +16,7 @@
 /tmp/*
 /log/.keep
 !/tmp/.keep
-.idea/*
+/.idea/*
 
 
 #Ignore all asset files in public folder
@@ -27,3 +27,7 @@
 
 .byebug_history
 
+#Ignore all pictures
+*.png
+*.jpeg
+*.jpg
