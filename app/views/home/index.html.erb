@@ -1,5 +1,246 @@
-<div class="container">
-  <h1>Home Page</h1>
-  <a href="projects/index">Projects</a>
-  <div><%= image_tag("excalibur.jpg", width: '500') %></div>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sylvester McMonkey McBean's Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+
+</head>
+<body>
+<div class="wrapper">
+  <div class="profile">
+    <section class="profile-masthead" id="masthead">
+      <header class="profile-logo">
+        <div class="profile-name">
+          <h1>Sylvester McMonkey McBean's projects</h1>
+        </div>
+      </header>
+      <aside class="profile-summary">
+        <div class="summary-location summary-module">
+          <a href="https://github.com/luliu31415926">https://github.com/luliu31415926</a>
+        </div>
+      </aside>
+    </section>
+
+    <section class="profile-content" id="content">
+      <!-- TODO header? -->
+
+      <div class="profile-description">
+        <p>"I’ve come here to help you.
+          I have what you need.
+          And my prices are low.
+          And I work with great speed.
+          And my work is one hundred per cent guaranteed!”
+        </p>
+      </div>
+
+      <article class="profile-menu" id="menu">
+        <nav class="menu-navigation">
+          <ul class="menu-navigation-list">
+            <li class="menu-navigation-list-item"><a href="#machine-learning">Machine Learning projects</a></li>
+            <li class="menu-navigation-list-item"><a href="#kaggle">Kaggle Competitions</a></li>
+            <li class="menu-navigation-list-item"><a href="#python">Python</a></li>
+            <li class="menu-navigation-list-item"><a href="#android">Android</a></li>
+            <li class="menu-navigation-list-item"><a href="#programming-contest">Programming Contests</a></li>
+            <li class="menu-navigation-list-item"><a href="#coursera">Coursera Courses</a></li>
+          </ul>
+        </nav>
+
+
+        <div id="machine-learning" class="menu-category">
+          <h3 class="menu-category-name">Machine Learning Projects</h3>
+          <ol class="menu-category-list has-images">
+            <li class="menu-item">
+              <div class="menu-item-info">
+                <h4 class="menu-item-name">Facial Composition</h4>
+                <span class="menu-item-price"><a href="http://square.github.io/assertj-android/" target="_blank">Website</a> &middot; <a href="https://github.com/square/assertj-android" target="_blank">GitHub</a></span>
+                <p class="menu-item-description">an exercise in utilizing Variational Autoencoder, Bayesian optimization and Gaussian process</p>
+              </div>
+              <div class="menu-item-image has-meta-content">
+                <%= image_tag "excalibur.jpg" %>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-info">
+                <h4 class="menu-item-name">Visual Book Recommender</h4>
+
+                <span class="menu-item-price"><%= link_to "Website", controller:"projects", action:"visual_recommender" %> &middot; <a href="https://github.com/luliu31415926/visual_recommender" target="_blank">GitHub</a></span>
+                <p class="menu-item-description">A book recommender trained on Wikipedia pages using word embeddings of keras' neural network model. Allow 2d visual exploration.  </p>
+              </div>
+              <div class="menu-item-image has-meta-content">
+                <%= image_tag "excalibur.jpg"%>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-info">
+                <h4 class="menu-item-name">Reinforcement Learning for Trading</h4>
+                <span class="menu-item-price"><a href="http://square.github.io/dagger/" target="_blank">Website</a> &middot; <a href="https://github.com/square/dagger" target="_blank">GitHub</a></span>
+                <p class="menu-item-description">automatic trade execution with reinforcement learning</p>
+              </div>
+              <div class="menu-item-image has-meta-content">
+                <%= image_tag "excalibur.jpg" %>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-info">
+                <h4 class="menu-item-name">Autonomous Driving Simulation</h4>
+                <span class="menu-item-price"><a href="http://square.github.io/otto/" target="_blank">Website</a> &middot; <a href="https://github.com/square/otto" target="_blank">GitHub</a></span>
+                <p class="menu-item-description">simulate autonomous driving with reinforcement learning</p>
+              </div>
+              <div class="menu-item-image has-meta-content">
+                <%= image_tag "excalibur.jpg" %>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <div id="kaggle" class="menu-category">
+          <h3 class="menu-category-name">Kaggle Competitions</h3>
+          <ol class="menu-category-list has-images">
+            <li class="menu-item">
+              <div class="menu-item-info">
+                <h4 class="menu-item-name">1C Company Sales Prediction</h4>
+                <span class="menu-item-price"><a href="http://square.github.io/otto/" target="_blank">Website</a> &middot; <a href="https://github.com/square/otto" target="_blank">GitHub</a></span>
+                <p class="menu-item-description">timeseries prediction</p>
+              </div>
+              <div class="menu-item-image has-meta-content">
+                <%= image_tag "excalibur.jpg" %>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-info">
+                <h4 class="menu-item-name">Talkingdata Fraud Detection</h4>
+                <span class="menu-item-price"><a href="http://square.github.io/otto/" target="_blank">Website</a> &middot; <a href="https://github.com/square/otto" target="_blank">GitHub</a></span>
+                <p class="menu-item-description">abnormally detection in highly unbalanced data</p>
+              </div>
+              <div class="menu-item-image has-meta-content">
+                <%= image_tag "excalibur.jpg" %>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-info">
+                <h4 class="menu-item-name">Observing Dark World</h4>
+                <span class="menu-item-price"><a href="http://square.github.io/otto/" target="_blank">Website</a> &middot; <a href="https://github.com/square/otto" target="_blank">GitHub</a></span>
+                <p class="menu-item-description">an exercising in using PYMC3 for bayesian inference</p>
+              </div>
+              <div class="menu-item-image has-meta-content">
+                <%= image_tag "excalibur.jpg" %>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <div id="python" class="menu-category">
+          <h3 class="menu-category-name">Python</h3>
+          <ol class="menu-category-list has-images">
+            <li class="menu-item">
+              <div class="menu-item-info">
+                <h4 class="menu-item-name">Multiplayer Sudoku</h4>
+                <span class="menu-item-price"><a href="http://square.github.io/otto/" target="_blank">Website</a> &middot; <a href="https://github.com/square/otto" target="_blank">GitHub</a></span>
+                <p class="menu-item-description">an exercise in using MVC design pattern</p>
+              </div>
+              <div class="menu-item-image has-meta-content">
+                <%= image_tag "excalibur.jpg" %>
+              </div>
+            </li>
+          </ol>
+        </div>
+        <div id="android" class="menu-category">
+          <h3 class="menu-category-name">Android</h3>
+          <ol class="menu-category-list has-images">
+            <li class="menu-item">
+              <div class="menu-item-info">
+                <h4 class="menu-item-name">Dongdong</h4>
+                <span class="menu-item-price"><a href="http://square.github.io/otto/" target="_blank">Website</a> &middot; <a href="https://github.com/square/otto" target="_blank">GitHub</a></span>
+                <p class="menu-item-description">a Q and A platform for students before college</p>
+              </div>
+              <div class="menu-item-image has-meta-content">
+                <%= image_tag "excalibur.jpg" %>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <div id="programming-contest" class="menu-category">
+          <h3 class="menu-category-name">Programming Contests</h3>
+          <ol class="menu-category-list">
+            <li class="menu-item">
+              <div class="menu-item-info">
+                <h4 class="menu-item-name">Google Code Jam solutions</h4>
+                <span class="menu-item-price"><a href="https://github.com/square/otto" target="_blank">GitHub</a></span>
+                <p class="menu-item-description">my solutions to GCJ past contests in python</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-info">
+                <h4 class="menu-item-name">acm contest book solutions</h4>
+                <span class="menu-item-price"><a href="https://github.com/square/otto" target="_blank">GitHub</a></span>
+                <p class="menu-item-description">my solutions to the exercises in the acm contest book in Python http://www.ituring.com.cn/book/1044</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+        <a id="btn-view-full-menu" class="btn-view-full-menu" href="https://github.com/luliu31415926">View full list of repositories</a>
+
+        <div id="coursera" class="menu-category">
+          <h3 class="menu-category-name">Completed Coursera Courses</h3>
+          <ol class="menu-category-list">
+            <li class="menu-item">
+              <div class="menu-item-info">
+                <h4 class="menu-item-name">Machine Learning Specialization</h4>
+                <span class="menu-item-price"><a href="https://www.coursera.org/account/accomplishments/specialization/FXXVZJPJBFBM" target="_blank">Certificate</a></span>
+                <p class="menu-item-description">A 4-course specialization by University of Washington.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-info">
+                <h4 class="menu-item-name">Machine Learning by Andrew Ng</h4>
+                <span class="menu-item-price"><a href="https://www.coursera.org/account/accomplishments/certificate/S2TBKNDX5W2S" target="_blank">Certificate</a></span>
+                <p class="menu-item-description">by Stanford University.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-info">
+                <h4 class="menu-item-name">Bayesian Methods for Machine Learning</h4>
+                <span class="menu-item-price"><a href="https://www.coursera.org/account/accomplishments/certificate/575D9N2FVWNG" target="_blank">Certificate</a></span>
+                <p class="menu-item-description">by National Research University Higher School of Economics.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-info">
+                <h4 class="menu-item-name">How to Win a Data Science Competition</h4>
+                <span class="menu-item-price"><a href="https://www.coursera.org/account/accomplishments/certificate/N8V6RNMAAYW5" target="_blank">Certificate</a></span>
+                <p class="menu-item-description">by National Research University Higher School of Economics.</p>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-item-info">
+                <h4 class="menu-item-name">Neural Networks and Deep Learning</h4>
+                <span class="menu-item-price"><a href="https://www.coursera.org/account/accomplishments/certificate/N8N2AELL4FL3" target="_blank">Certificate</a></span>
+                <p class="menu-item-description">by deeplearning.ai</p>
+              </div>
+            </li>
+          </ol>
+        </div>
+
+
+        <section class="profile-modules" id="modules">
+          <ul class='twitter-columns'>
+            <li class="profile-module">
+              <ul class="module-list">
+                <li><a href="">My LinkedIn Page</a></li>
+                <li><a href="">My Resume</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </section>
+  </div>
 </div>
+<footer class="footer">
+  <nav class="footer-navigation">
+    <p class="copyright">Great Scott!</p>
+  </nav>
+</footer>
+</body>
+</html>
