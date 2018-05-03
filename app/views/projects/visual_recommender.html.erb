@@ -25,37 +25,65 @@
 
     <section class="profile-content" id="content">
       <div class="profile-description">
-        <p>A Visual Recommender trained on Wikipedia data using Word2Vec skip-grams model</p>
+        <p>A Visual Book Recommender using wikipedia page links</p>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Introduction</h3>
+        <article class="article-text">
+          Almost every Wikipedia page contain links to other pages.<br>
+          Relationships among entities could be derived from whether or not (or how many) two entites share same links. <br>
+          Conveniently, Wikimedia.org provide a complete data dump of all wiki pages which can be parsed and stored in the database.<br>
+          This project is a study of  <%=link_to "Douwe Osinga's Movie Recommender project", 'https://douweosinga.com/projects/movie_recommend'%>.<br>
+
+
+        </article>
       </div>
       <div class="menu-category">
         <h3 class="menu-category-name">Data</h3>
         <article class="article-text">
-          Almost every Wikipedia page contain links to other entities.<br>
-          Relationships among entities could be derived from whether or not two entites share same links as well as the number of links shared.<br>
-          Wikimedia.org provide a complete data dump of all wiki pages which can be parsed and stored in the database.
+          Static html wikipedia page dumps are downloaded directly from <%= link_to "wikimedia downloads page","https://dumps.wikimedia.org/"%>.<br>
+          Wikistats pageview files are downloaded from <%= link_to "wikimedia","https://dumps.wikimedia.org/other/pagecounts-ez/"%><br>
+          Pageview stats allow us to gain information regarding the importance of categories or entries. <br>
+          These dumps are then parsed and imported into Postgres database using Douwe Osinga's <%= link_to "Wiki_import code","https://github.com/DOsinga/wiki_import"%>.<br>
+          <br>
+
         </article>
       </div>
       <div class="menu-category">
         <h3 class="menu-category-name">Model</h3>
         <article>
-          A simple co-occurrence matrix could be generated.<br>
-          Finding the similarity between entities will simply be calculating the jaccard distance between two vectors.<br>
-          However, due to high dimensionality large amount of calculations would be needed when we try to find relationships among all entities.<br>
-          Word2Vec skip grams model produce word embeddings by training a neural network for a specific task.<br>
-          The generated Embedding vectors use distributed representation to represent each entity, which greatly reduce the number of dimensions.<br>
-          For this project, the task would be to determine if two entities share common references.
+          This project investigates two models for calculating the relative relationships among wiki book pages.
+          <ol>
+            <br>
+            <li>
+              1. Co-occurrence matrix<br>
+              A single co-occurrence matrix is generated which count the number of links that are shared between two books.<br>
+              The <%= link_to "jaccard distance", 'https://en.wikipedia.org/wiki/Jaccard_index'%> is used to calculate nearest neighbors of each book. <br>
+              This method is simple, but it suffers from high dimensionality as the dimension of the matrix equals the number of books in question. <br>
+              Adding new books to the matrix is convenient and fast, but querying for each book requires heavy calculation on the entire matrix. <br>
+              For the purpose of 2d visualization of the books, reducing the dimensions to 2d causes too much loss of information.<br>
+            </li>
+            <br>
+            <li>
+              2. Neural Network's Embedding Model<br>
+              Neural network's embedding layer (mostly used in NLP) could project high dimensional vectors onto lower dimension by training the neural network for a particular task.<br>
+              By defining a simple task: predicting whether or not two books share the same reference, We could obtain a reduced vector for each book. <br>
+              This will allow easy storage and fast retrieval of recommentation results.<br>
+              The result obtained from this method is used to create the demo below. <br>
+            </li>
+          </ol>
         </article>
       </div>
       <div class="menu-category">
         <h3 class="menu-category-name">Implementation</h3>
         <%= link_to "source code" , "https://github.com/luliu31415926/visual_recommender"%>
         <article>
-          The Word2Vec model was trained using KERAS API in Python Jupyter notebook.<br>
+          Due to limitation of computing resources, only 226600 html wikipages are imported. <br>
+          Top 500 most popular books are used in the calculation and training.<br>
           Data was stored in postgreSQL database.<br>
-          Demo is hosted online with Ruby on Rails with openseadragon API.<br>
-          Using wikistats view count , I selected the top 500 wiki books to train as a demo.<br>
-          After reducing the dimension to 20, I mapped the embedding vectors to 2d using TSNE model for visualization<br>
-          The result is not perfect but reasonally well, you can play with it in the demo below. (the images are not the most accurate as they are retrieved from wiki data)
+          The Neural Network with Embedding Layer was trained using KERAS in Python Jupyter notebook.<br>
+          Demo is hosted online with <%= link_to "openseadragon", "https://openseadragon.github.io/"%>.<br>
+          After reducing the dimension to 20 with embedding, I mapped the embedding vectors to 2d using TSNE model for visualization<br>
         </article>
       </div>
       <div class="menu-category">
