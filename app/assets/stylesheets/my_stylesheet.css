@@ -1,0 +1,14 @@
+.demo-form{
+    min-height: 20em
+}
+
+.demo-left{
+    float: left;
+    width: 40%;
+
+
+}
+.demo-right{
+    float: right;
+    width: 60%;
+}

@@ -20,48 +20,68 @@
         });
     })
 </script>
+<div class="wrapper">
+  <div class="profile">
 
-<div class="container">
-  <h1> A Visual Recommender trained on Wikipedia data using Word2Vec skip-grams model</h1>
-  <h2>Data</h2>
-  <p>
-    Almost every Wikipedia page contain links to other entities.<br>
-    Relationships among entities could be derived from whether or not two entites share same links as well as the number of links shared.<br>
-    Wikimedia.org provide a complete data dump of all wiki pages which can be parsed and stored in the database.
-  </p>
-  <h2>Model</h2>
-  <p>
-    A simple co-occurrence matrix could be generated.<br>
-    Finding the similarity between entities will simply be calculating the jaccard distance between two vectors.<br>
-    However, due to high dimensionality large amount of calculations would be needed when we try to find relationships among all entities.<br>
-    Word2Vec skip grams model produce word embeddings by training a neural network for a specific task.<br>
-    The generated Embedding vectors use distributed representation to represent each entity, which greatly reduce the number of dimensions.<br>
-    For this project, the task would be to determine if two entities share common references.</p>
-  <h2>Implementation</h2>
-  <a href="https://github.com/luliu31415926/visual_recommender/blob/master/.ipynb_checkpoints/Book_Recommendations-Skipgram-checkpoint.ipynb">source code is on Github</a>
-  <p>
-    The Word2Vec model was trained using KERAS API in Python Jupyter notebook.<br>
-    Data was stored in postgreSQL database.<br>
-    Demo is hosted online with Ruby on Rails with openseadragon API.<br>
-    Using wikistats view count , I selected the top 500 wiki books to train as a demo.<br>
-    After reducing the dimension to 20, I mapped the embedding vectors to 2d using TSNE model for visualization<br>
-    The result is not perfect but reasonally well, you can play with it in the demo below. (the images are not the most accurate as they are retrieved from wiki data)
-  </p>
-  <h2>Demo</h2>
-  <%= form_tag "/projects/visual_recommender", method: "get" , class:"col-lg-4 col-md-4" do %>
-      <label for="books-search-txt">Pick a book: </label>
-      <%= text_field_tag 'books-search-txt' %>
-      <%= submit_tag 'Go!', class:"btn btn-success"%>
-  <% end %>
-  <div class="nearest-neighbors col-lg-4 col-md-4">
-    <% if @book %>
-        <table>
-          <caption>10 Most Similar Books:</caption>
-          <% @neighbors.each do |n| %>
-              <tr><td><%= n.title %></td></tr>
+    <section class="profile-content" id="content">
+      <div class="profile-description">
+        <p>A Visual Recommender trained on Wikipedia data using Word2Vec skip-grams model</p>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Data</h3>
+        <article class="article-text">
+          Almost every Wikipedia page contain links to other entities.<br>
+          Relationships among entities could be derived from whether or not two entites share same links as well as the number of links shared.<br>
+          Wikimedia.org provide a complete data dump of all wiki pages which can be parsed and stored in the database.
+        </article>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Model</h3>
+        <article>
+          A simple co-occurrence matrix could be generated.<br>
+          Finding the similarity between entities will simply be calculating the jaccard distance between two vectors.<br>
+          However, due to high dimensionality large amount of calculations would be needed when we try to find relationships among all entities.<br>
+          Word2Vec skip grams model produce word embeddings by training a neural network for a specific task.<br>
+          The generated Embedding vectors use distributed representation to represent each entity, which greatly reduce the number of dimensions.<br>
+          For this project, the task would be to determine if two entities share common references.
+        </article>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Implementation</h3>
+        <%= link_to "source code" , "https://github.com/luliu31415926/visual_recommender"%>
+        <article>
+          The Word2Vec model was trained using KERAS API in Python Jupyter notebook.<br>
+          Data was stored in postgreSQL database.<br>
+          Demo is hosted online with Ruby on Rails with openseadragon API.<br>
+          Using wikistats view count , I selected the top 500 wiki books to train as a demo.<br>
+          After reducing the dimension to 20, I mapped the embedding vectors to 2d using TSNE model for visualization<br>
+          The result is not perfect but reasonally well, you can play with it in the demo below. (the images are not the most accurate as they are retrieved from wiki data)
+        </article>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Demo</h3>
+        <div class="demo-left">
+          <%= form_tag "/projects/visual_recommender", method: "get" , class:"demo-form" do %>
+              <label for="books-search-txt">Pick a book: </label>
+              <%= text_field_tag 'books-search-txt' %>
+              <%= submit_tag 'Go!', class:"btn btn-success"%>
           <% end %>
-        </table>
-    <% end %>
+          <div >
+            <% if @book %>
+                <table>
+                  <caption>10 Most Similar Books:</caption>
+                  <% @neighbors.each do |n| %>
+                      <tr><td><%= n.title %></td></tr>
+                  <% end %>
+                </table>
+            <% end %>
+          </div>
+        </div>
+        <div class="demo-right">
+          <div id="openseadragon-viewer" style="width: 600px; height: 800px;"></div>
+        </div>
+      </div>
+    </section>
   </div>
-  <div id="openseadragon-viewer" class="col-lg-8 col-md-8" style="width: 600px; height: 800px;"></div>
 </div>
+
