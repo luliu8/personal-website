@@ -25,17 +25,27 @@
 
     <section class="profile-content" id="content">
       <div class="profile-description">
-        <p>A Visual Book Recommender using wikipedia page links</p>
+        <p>Facial Composition with Variational Autoencoder and Bayesian Optimization</p>
       </div>
       <div class="menu-category">
         <h3 class="menu-category-name">Introduction</h3>
         <article class="article-text">
-          Almost every Wikipedia page contain links to other pages.<br>
-          Relationships among entities could be derived from whether or not (or how many) two entites share same links. <br>
-          Conveniently, Wikimedia.org provide a complete data dump of all wiki pages which can be parsed and stored in the database.<br>
-          This project is a study of  <%=link_to "Douwe Osinga's Movie Recommender project", 'https://douweosinga.com/projects/movie_recommend'%>.<br>
-
-
+          <%= link_to "Variational Autoencoder", "https://arxiv.org/abs/1606.05908" %> is a type of generative neural network model.
+          It makes strong assumptions for the distribution of latent variables, which allows it to map the original representations onto a continuous
+          latent space. We could move along the space and any point on this latent space is able to be reconstructed into a similar form with the original representation. <br>
+          <br>
+          With <%= link_to "Bayesian Optimization", "https://www.mathworks.com/help/stats/bayesian-optimization-algorithm.html"%> we could heuristically solve optimization problem
+          with a few sampling points and without an explicit expression for objective function. <br>
+          Utilizing this, we could build an intelligent user interface, which is able to locate
+          the desired result from a large search space by asking the user a few simple comparisons. <br>
+          <br>
+          This project applies VAE and Bayesian Optimization to the composition of facial images. With the right image databases to train from, it could have wide applications from
+          photo editing to suspect facial construction. <br>
+          <br>
+          VAE is great for learning latent spaces that are well structured, where specific directions encode a meaningful axis of variation in the data. <br>
+          With facial data, we could potentially identify independent vectors in latent space that allows us to manipulate the image such as turn a male to a female face,
+          turn a sad face into a smile face.<br>
+          That also means, with Bayesian Optimization, we could search the latent space to freely adjust for the features we want in a face.<br>
         </article>
       </div>
       <div class="menu-category">

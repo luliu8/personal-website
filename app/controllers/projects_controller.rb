@@ -4,7 +4,10 @@ class ProjectsController < ApplicationController
 
   end
 
+  def facial_composition
 
+
+  end
 
   def visual_recommender
     gon.zoom_center=-1
