@@ -26,7 +26,6 @@ class ProjectsController < ApplicationController
 
   def visual_recommender_book_search
     respond_to do |format|
-      format.html
       format.json { @books = Book.search(params[:term]) }
     end
   end
