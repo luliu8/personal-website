@@ -10,13 +10,17 @@ class ProjectsController < ApplicationController
   end
 
   def visual_recommender
-    gon.zoom_center=-1
     if params[:'books-search-txt']
       @book = Book.find(params[:'books-search-txt']).first
+
       if @book
         @neighbors = Book.find_neighbors(@book.vec)
-        gon.zoom_center = [@book.x, @book.y]
+        respond_to do |format|
+          format.js { }
+        end
       end
+    else
+      gon.zoom_center=-1
     end
   end
 

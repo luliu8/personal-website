@@ -1,0 +1,13 @@
+// todo: fix this format, use partial
+$('#neighbor-table').empty()
+$('#neighbor-table').append("<p> double click on the canvas to update </p><br><br>")
+$('#neighbor-table').append(" \
+      <table>\
+      <h2>10 Most Similar Books:</h2>\
+      <% @neighbors.each do |n| %>\
+        <tr><td><%= n.title %></td></tr>\
+      <% end %>\
+      </table>")
+
+gon.zoom_center=<%=[@book.x,@book.y]%>
+

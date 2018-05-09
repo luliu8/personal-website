@@ -1,4 +1,6 @@
 
+
+
 <script>
     $( document ).ready(function() {
         var viewer = OpenSeadragon({
@@ -7,7 +9,9 @@
             tileSources: "/assets/book_recommendation_skipgram.dzi",
             showNavigator: true
         });
-        viewer.addHandler('open', function () {
+        viewer.addHandler('canvas-double-click', function(){
+            console.log('testing openseadragon');
+
             if (gon.zoom_center !== -1) {
                 imagex=gon.zoom_center[0];
                 imagey=gon.zoom_center[1];
@@ -89,20 +93,13 @@
       <div class="menu-category">
         <h3 class="menu-category-name">Demo</h3>
         <div class="demo-left">
-          <%= form_tag "/projects/visual_recommender", method: "get" , class:"demo-form" do %>
+          <%= form_tag "/projects/visual_recommender", method: "get" , class:"demo-form", remote:true do %>
               <label for="books-search-txt">Pick a book: </label>
               <%= text_field_tag 'books-search-txt' %>
-              <%= submit_tag 'Go!', class:"btn btn-success"%>
+              <%= submit_tag 'Go!'%>
           <% end %>
-          <div >
-            <% if @book %>
-                <table>
-                  <caption>10 Most Similar Books:</caption>
-                  <% @neighbors.each do |n| %>
-                      <tr><td><%= n.title %></td></tr>
-                  <% end %>
-                </table>
-            <% end %>
+          <div id="neighbor-table">
+
           </div>
         </div>
         <div class="demo-right">
