@@ -1,6 +1,5 @@
 // todo: fix this format, use partial
 $('#neighbor-table').empty()
-$('#neighbor-table').append("<p> double click on the canvas to update </p><br><br>")
 $('#neighbor-table').append(" \
       <table>\
       <h2>10 Most Similar Books:</h2>\
@@ -9,5 +8,5 @@ $('#neighbor-table').append(" \
       <% end %>\
       </table>")
 
-gon.zoom_center=<%=[@book.x,@book.y]%>
+gon.viewer.viewport.fitBounds(gon.viewer.viewport.imageToViewportRectangle(<%=@book.x%>-225,<%=@book.y%>-300,600,800), true);
 

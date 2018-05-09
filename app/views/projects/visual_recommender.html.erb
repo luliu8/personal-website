@@ -9,15 +9,7 @@
             tileSources: "/assets/book_recommendation_skipgram.dzi",
             showNavigator: true
         });
-        viewer.addHandler('canvas-double-click', function(){
-            //console.log('testing openseadragon');
-
-            if (gon.zoom_center !== -1) {
-                imagex=gon.zoom_center[0];
-                imagey=gon.zoom_center[1];
-                viewer.viewport.fitBounds(viewer.viewport.imageToViewportRectangle(imagex-225,imagey-300,600,800), true);
-            }
-        });
+        gon.viewer=viewer;
 
         $("input[id='books-search-txt']").autocomplete({
             source: '/projects/visual_recommender_book_search'
@@ -93,6 +85,7 @@
       <div class="menu-category">
         <h3 class="menu-category-name">Demo</h3>
         <div class="demo-left">
+          <p> you can explore the 2d map or search below for a particular book.</p>
           <%= form_tag "/projects/visual_recommender", method: "get" , class:"demo-form", remote:true do %>
               <label for="books-search-txt">Pick a book: </label>
               <%= text_field_tag 'books-search-txt' %>
