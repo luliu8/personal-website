@@ -61,3 +61,4 @@ gem 'jquery-rails'
 gem 'gon'
 
 gem 'bootstrap-sass'
+

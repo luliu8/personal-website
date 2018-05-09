@@ -1,25 +1,3 @@
-
-<script>
-    $( document ).ready(function() {
-        var viewer = OpenSeadragon({
-            id: "openseadragon-viewer",
-            prefixUrl: "/assets/openseadragon-icon/",
-            tileSources: "/assets/book_recommendation_skipgram.dzi",
-            showNavigator: true
-        });
-        viewer.addHandler('open', function () {
-            if (gon.zoom_center !== -1) {
-                imagex=gon.zoom_center[0];
-                imagey=gon.zoom_center[1];
-                viewer.viewport.fitBounds(viewer.viewport.imageToViewportRectangle(imagex-225,imagey-300,600,800), true);
-            }
-        });
-
-        $("input[id='books-search-txt']").autocomplete({
-            source: '/projects/visual_recommender_book_search'
-        });
-    })
-</script>
 <div class="wrapper">
   <div class="profile">
 
@@ -30,6 +8,24 @@
       <div class="menu-category">
         <h3 class="menu-category-name">Introduction</h3>
         <article class="article-text">
+          This project applies VAE and Bayesian Optimization to the composition of facial images. With the right image databases to train from, it could have wide applications from
+          photo editing to suspect facial construction. <br>
+          <br>
+          This project is based on the <%= link_to 'Bayesian Methods for Machine learning course','https://www.coursera.org/learn/bayesian-methods-in-machine-learning'%>
+          and <%= link_to 'Deep Learning with Python book', 'https://www.manning.com/books/deep-learning-with-python' %>
+
+        </article>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Data</h3>
+        <article class="article-text">
+          Alligned & Cropped version of <%= link_to 'CelebA' , 'https://www.dropbox.com/sh/8oqt9vytwxb3s4r/AADSNUu0bseoCKuxuI5ZeTl1a/Img?dl=0&preview=img_align_celeba.zip'%> <br>
+          The original <%= link_to 'CelebA website','http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html'%>.
+        </article>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Model</h3>
+        <article>
           <%= link_to "Variational Autoencoder", "https://arxiv.org/abs/1606.05908" %> is a type of generative neural network model.
           It makes strong assumptions for the distribution of latent variables, which allows it to map the original representations onto a continuous
           latent space. We could move along the space and any point on this latent space is able to be reconstructed into a similar form with the original representation. <br>
@@ -39,85 +35,54 @@
           Utilizing this, we could build an intelligent user interface, which is able to locate
           the desired result from a large search space by asking the user a few simple comparisons. <br>
           <br>
-          This project applies VAE and Bayesian Optimization to the composition of facial images. With the right image databases to train from, it could have wide applications from
-          photo editing to suspect facial construction. <br>
-          <br>
           VAE is great for learning latent spaces that are well structured, where specific directions encode a meaningful axis of variation in the data. <br>
           With facial data, we could potentially identify independent vectors in latent space that allows us to manipulate the image such as turn a male to a female face,
           turn a sad face into a smile face.<br>
-          That also means, with Bayesian Optimization, we could search the latent space to freely adjust for the features we want in a face.<br>
-        </article>
-      </div>
-      <div class="menu-category">
-        <h3 class="menu-category-name">Data</h3>
-        <article class="article-text">
-          Static html wikipedia page dumps are downloaded directly from <%= link_to "wikimedia downloads page","https://dumps.wikimedia.org/"%>.<br>
-          Wikistats pageview files are downloaded from <%= link_to "wikimedia","https://dumps.wikimedia.org/other/pagecounts-ez/"%><br>
-          Pageview stats allow us to gain information regarding the importance of categories or entries. <br>
-          These dumps are then parsed and imported into Postgres database using Douwe Osinga's <%= link_to "Wiki_import code","https://github.com/DOsinga/wiki_import"%>.<br>
-          <br>
-
-        </article>
-      </div>
-      <div class="menu-category">
-        <h3 class="menu-category-name">Model</h3>
-        <article>
-          This project investigates two models for calculating the relative relationships among wiki book pages.
-          <ol>
-            <br>
-            <li>
-              1. Co-occurrence matrix<br>
-              A single co-occurrence matrix is generated which count the number of links that are shared between two books.<br>
-              The <%= link_to "jaccard distance", 'https://en.wikipedia.org/wiki/Jaccard_index'%> is used to calculate nearest neighbors of each book. <br>
-              This method is simple, but it suffers from high dimensionality as the dimension of the matrix equals the number of books in question. <br>
-              Adding new books to the matrix is convenient and fast, but querying for each book requires heavy calculation on the entire matrix. <br>
-              For the purpose of 2d visualization of the books, reducing the dimensions to 2d causes too much loss of information.<br>
-            </li>
-            <br>
-            <li>
-              2. Neural Network's Embedding Model<br>
-              Neural network's embedding layer (mostly used in NLP) could project high dimensional vectors onto lower dimension by training the neural network for a particular task.<br>
-              By defining a simple task: predicting whether or not two books share the same reference, We could obtain a reduced vector for each book. <br>
-              This will allow easy storage and fast retrieval of recommentation results.<br>
-              The result obtained from this method is used to create the demo below. <br>
-            </li>
-          </ol>
+          That also means, with Bayesian Optimization, we could search the latent space to freely adjust for the features we want in a face (e.g. smile to sad, male to female, black hair to grey hair etc.).<br>
         </article>
       </div>
       <div class="menu-category">
         <h3 class="menu-category-name">Implementation</h3>
-        <%= link_to "source code" , "https://github.com/luliu31415926/visual_book_recommender"%>
+        <%= link_to "source code" , "https://github.com/luliu31415926/facial_composition"%><br>
+        The VAE neural network was built and trained with Keras and tensorflow. <br>
+        The image data with shape (64,64,3) was encoded into two 8 dimensions variables z_mean and z_log_var <br>
+        The decoder then decode point on the latent space back to a image.<br>
+        <br>
+        <caption> Sample images decoced from latent space</caption>
+        <%= image_tag("facial_composition/decoded_sample_images.png", :alt => "sample images decoded from latent space") %>
+        <br>
+        <p>
+          Bayesian Optimization is implemented with the
+          <%= link_to 'bayes_opt module','https://github.com/fmfn/BayesianOptimization/tree/master/bayes_opt'%>
+        </p>
+        <br>
+        <caption>
+          The search procedure starts by randomly displaying some images for the user,
+          and ask the user to select the best and worst image
+        </caption>
+        <%= image_tag("facial_composition/initial_selection.png", :alt => "initial set of images to show user") %><br>
+        <caption>
+          After assigning an initial rating for the best and worst images,
+          the bayesian optimization algorithm then select the next point to sample by maximizing the acquisition function
+          ('Expected Improvement' in this case). <br>
+          A kappa parameter can be adjusted to choose the explore vs. exploit ratio for the algorithm. <br>
+          <br>
+          After the initialization, the algorithm then run a predefined number of iterations: each time sample a image
+          to the user, asking for a rating by providing the current top 5 images in the pool and their corresponding ratings as reference.<br>
+          <br>
+          (Try to find smiling female)
+          <%= image_tag("facial_composition/iteration_phase.png", :alt => "sample iteration") %><br>
+          The algorithm ends by displaying the best image it could find in the predefined iterations. <br>
+          <%= image_tag("facial_composition/best_image.png", :alt => "best image") %><br>
+        </caption>
+
         <article>
-          Due to limitation of computing resources, only 226600 html wikipages are imported. <br>
-          Top 500 most popular books are used in the calculation and training.<br>
-          Data was stored in postgreSQL database.<br>
-          The Neural Network with Embedding Layer was trained using KERAS in Python Jupyter notebook.<br>
-          Demo is hosted online with <%= link_to "openseadragon", "https://openseadragon.github.io/"%>.<br>
-          After reducing the dimension to 20 with embedding, I mapped the embedding vectors to 2d using TSNE model for visualization<br>
         </article>
       </div>
+
       <div class="menu-category">
         <h3 class="menu-category-name">Demo</h3>
-        <div class="demo-left">
-          <%= form_tag "/projects/visual_recommender", method: "get" , class:"demo-form" do %>
-              <label for="books-search-txt">Pick a book: </label>
-              <%= text_field_tag 'books-search-txt' %>
-              <%= submit_tag 'Go!', class:"btn btn-success"%>
-          <% end %>
-          <div >
-            <% if @book %>
-                <table>
-                  <caption>10 Most Similar Books:</caption>
-                  <% @neighbors.each do |n| %>
-                      <tr><td><%= n.title %></td></tr>
-                  <% end %>
-                </table>
-            <% end %>
-          </div>
-        </div>
-        <div class="demo-right">
-          <div id="openseadragon-viewer" style="width: 600px; height: 800px;"></div>
-        </div>
+        <p> interactive demo currently under construction</p>
       </div>
     </section>
   </div>
