@@ -66,6 +66,7 @@
                 <%= image_tag "visual_recommender/visual_recommender_thumbnail.png"%>
               </div>
             </li>
+            <!--
             <li class="menu-item">
               <div class="menu-item-info">
                 <h4 class="menu-item-name">Reinforcement Learning for Trading</h4>
@@ -86,6 +87,7 @@
                 <%= image_tag "excalibur.jpg" %>
               </div>
             </li>
+            -->
           </ol>
         </div>
         <div id="kaggle" class="menu-category">
@@ -94,11 +96,11 @@
             <li class="menu-item">
               <div class="menu-item-info">
                 <h4 class="menu-item-name">1C Company Sales Prediction</h4>
-                <span class="menu-item-price"><a href="http://square.github.io/otto/" target="_blank">Website</a> &middot; <a href="https://github.com/square/otto" target="_blank">GitHub</a></span>
-                <p class="menu-item-description">timeseries prediction</p>
+                <span class="menu-item-price"><%= link_to "Description", controller:"projects", action:"company_1c_sales_prediction" %> &middot; <%= link_to "Github", "https://github.com/luliu31415926/kaggle_1c_company_predict_sales" %></span>
+                <p class="menu-item-description">Timeseries prediction with diverse models and stacking</p>
               </div>
               <div class="menu-item-image has-meta-content">
-                <%= image_tag "excalibur.jpg" %>
+                <%= image_tag "company_1c_sales_prediction/1c_sales_prediction_thumbnail.png" %>
               </div>
             </li>
             <li class="menu-item">

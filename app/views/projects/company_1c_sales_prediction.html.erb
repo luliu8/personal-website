@@ -1,0 +1,99 @@
+<div class="wrapper">
+  <div class="profile">
+
+    <section class="profile-content" id="content">
+      <div class="profile-description">
+        <p>Time series sales prediction for 1C company</p>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Introduction</h3>
+        <article>
+          This is an in-course Kaggle competition by
+          <%= link_to 'How to Win a Data Science Competition','https://www.coursera.org/learn/competitive-data-science'%> Coursera Course.<br>
+          My prediction result <%= link_to "'Excalibur'", 'https://www.kaggle.com/c/competitive-data-science-final-project/leaderboard'%> placed 6th out of 388 participants at the time when I finished the course.
+        </article>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Data</h3>
+        <article>
+          Daily historical sales data (January 2013 to October 2015) were <%= link_to 'provided','https://www.kaggle.com/c/competitive-data-science-final-project/data'%>.<br>
+          The task is to forecast the total amount of products sold in every shop for the next month (November 2015).<br>
+          <br>
+          Exploratory Data Analysis shows that target data is heavily skewed.
+          Most of the values are zeros. 99.9% of the values are contained with in (0,20) range. <br>
+          Experimenting with the a simple model shows that clipping the target to (0,20)
+          significantly increased my leaderboard result. <br>
+          <br>
+          Using different combination of keys (e.g. Category_target, shop_target etc.) observed strong decreasing trend and yearly pattern.<br>
+          Autocorrelation plot shows positive correlation with previous six months data. <br>
+          These observations lead me to creating lag features of 1-6 months and 12 month.
+        </article>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Feature Engineering</h3>
+        <article>
+          <h4>Data preprocessing</h4>
+          <li>Remove outlier from sales_train data </li>
+          <li>Calculate aggregation features for each month on shop_id and item_id, shop_id only , item_id only, category_id only. For each aggregation, calculate item_cnt_day sum , item_price median, and sales sum.</li>
+          <li>Split the date column into month and year features</li>
+          <li>Generate lag features for month 1,2,3,4,5,6,12</li>
+          <br>
+          <h4>Feature extraction from text</h4>
+          <li>Use sklearn.feature_extraction.text.TfidfVectorizer to transform item_name and category_name into vectors.</li>
+          <li>use sklearn.decomposition.TruncatedSVD to reduce its dimensions to 10</li>
+          <br>
+          <h4>Mean encodings for Categorical Features </h4>
+          Generated mean encoding for all categorical features using expanding mean. <br>
+          Features encoded: item_id,shop_id,item_category_id,month,year <br>
+          Target used for encoding: target, shop_target, item_target, category_target <br>
+          <br>
+          <h4>Features processing for different models</h4>
+          <li>For neural networks, numerical features are standardized before fitting into the model.</li>
+          <li>For tree based features, no scaling is performed since they do not affect the model performance.</li>
+          <li>For linear regression, only numerical features are fed into the model.</li>
+
+        </article>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Models and Ensemble</h3>
+        <article>
+          Several diverse machine learning models were trained using the generated dataset. <br>
+          Xgboost model, simple dense neural network with dropout and embedding neural network model all showed good result.<br>
+          The best single model is an entity embedding neural network from studying the <%= link_to 'winning solution','https://github.com/entron/entity-embedding-rossmann'%> of Rossman Sales prediction competition.<br>
+          <br>
+          The final result were obtained by stacking five diverse models: xgboost, randomforest, linear regression, simple neural network, embedding neural networks.<br>
+          After obtaining the meta features from the single models, pairwise differences were added to the meta features and then trained using a simple Linear Regression model to avoid overfitting. <br>
+          Stacking showed significant improvement over using one single model.
+
+        </article>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Validation</h3>
+        <article>
+          Two validation methods were tried:
+            <li>use last two month as validation set</li>
+            <li> Use 3 fold validation: date_block_num in {9,21,33} as validation set</li>
+          After comparing the validation RMSE score vs. leaderboard RMSE score, selected the second validation method.
+        </article>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Implementation</h3>
+        <%= link_to 'source code','https://github.com/luliu31415926/kaggle_1c_company_predict_sales'%>
+        <article>
+          Scikit Learn, XGBoost, Keras were used in the implementation of the models.<br>
+          Follow the steps to regenerate the result:<br>
+            1. python run_all_data.py    (Generate the full dataframe and split it into training, validation, test)<br>
+            2. python model_xgboost.py    (Generate best xgboost regressor prediction, and generate feature importances)<br>
+            3. python model_simple_neural_network.py    (Generate best simple neural network model prediction, as well as a standardized features dictionary dumped to local for stacking.)<br>
+            4. python model_embedding_neural_network.py    (Generate best embedding neural network model prediction, as well as a processed feature dictionary dumped to local for stacking.)<br>
+            5. python run_ensemble.py    (Generate an ensemble using stacking for XGBRegressor, RandomForestRegressor, LinearRegression, simple NeuralNetwork and embedding Neural Network.)<br>
+        </article>
+      </div>
+    </section>
+  </div>
+</div>
+<footer class="footer">
+  <nav class="footer-navigation">
+    <p class="copyright">Great Scott!</p>
+  </nav>
+</footer>

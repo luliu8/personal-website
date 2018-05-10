@@ -27,7 +27,8 @@ class ProjectsController < ApplicationController
     end
   end
 
-
+  def company_1c_sales_prediction
+  end
 
   def observing_dark_worlds
   end
