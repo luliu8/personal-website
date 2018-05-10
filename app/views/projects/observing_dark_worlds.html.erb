@@ -1,0 +1,78 @@
+<div class="wrapper">
+  <div class="profile">
+
+    <section class="profile-content" id="content">
+      <div class="profile-description">
+        <p>Solving Observing Dark Worlds Kaggle Competition with PYMC3</p>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Introduction</h3>
+        <article>
+          This project is an exercise in applying Bayesian Inference to problem solving.<br>
+        </article>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Data</h3>
+        <article>
+          Due to its enormous mass, Dark Matter warps and bends spacetime which causes the path of light from a background
+          galaxy to change, altering the ellipticity of the observed galaxy. <br>
+          The <%= link_to 'Observing Dark Worlds','https://www.kaggle.com/c/DarkWorlds'%> Kaggle competition asks
+          competitors to estimate the location of the Dark Matter from the simulated galaxy data. <br>
+          <br>
+          300 simulated skies are provided as training data, 120 simulated skies as test data.
+          Each sky contains between 300 - 740 galaxies and 1,2 or 3 dark matters. <br>
+          The provided data is limited, which makes bayesian inference very useful. Priors and models for parameters could
+          be estimated from the training data which we could then use in the calculation for test data.<br>
+          <br>
+          An example of a sky with the true halo positions from the training data<br>
+          <%= image_tag("observing_dark_words/sky_with_true_halo.png", :alt => "sky with true halos") %>  <br>
+
+        </article>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Model</h3>
+        <article>
+          The <%= link_to 'tutorial page on dark matter', 'http://blog.kaggle.com/2012/10/12/observing-dark-worlds-a-beginners-guide-to-dark-matter-how-to-find-it/'%>
+          provided the relationship between dark matter and galaxy:<br>
+          galaxy ellipticity = mass of dark matter / radial distance to galaxy <br>
+          The provided data contains the galaxy position and the two tangential component of each galaxy's ellipticity.<br>
+
+          Halos(dark matter) could be any where in the sky, and the probability at each location is uniform: <br>
+            halo position (x,y) ~ Uniform(0,4200) <br>
+          Observe the tangential ellipticity follow a normal distribution with variance 0.05: <br>
+          <%= image_tag("observing_dark_words/ellipticity_distribution.png", :alt => "ellipticity distrution") %>  <br>
+            e1,e2 ~ Normal(0,sqrt(0..05))<br>
+          <br>
+
+        </article>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Implementation</h3>
+        <%= link_to 'source code','https://github.com/luliu31415926/observing_dark_worlds'%>
+        <article>
+          The inference is implemented with Python package <%= link_to 'PyMC3' ,'http://pymc3.readthedocs.io/en/latest/'%>.<br>
+          <br>
+          In order to obtain the distribution of the dark matter mass, we need to make bayesian inference from the provided training data.<br>
+          1/3 of the training skies contain only 1 halo. With limited computing resource, I only focused on those skies.<br>
+          By setting the halos position as observed variable, and providing a big range uniform distribution (0,1000) for the mass,
+          I ran MAP inference for the mass for the 100 skies with 1 halo. <br>
+          <br>
+          hist plot of MAP estimation for the halo masses<br>
+          <%= image_tag("observing_dark_words/mass_distribution.png", :alt => "distribution of mass MAP estimation") %>  <br>
+          The plot seem to indicate two gaussian distributions, but without enough data it is too risky to make such an assumption.<br>
+          In order to avoid overfitting, I decided to use a uniform model for the mass with range (0,180)
+          <br>
+          With a model for all the parameters I need, I can start making inference for the halo position.<br>
+          Limited by computing resource, I couldn't run as much sampling as I like. but I obtained good enough result for visualization. <br>
+          <br>
+          Sampling traceplot for one sky, shows the model converged very well.<br>
+          <%= image_tag("observing_dark_words/samping_traceplot.png", :alt => "traceplot") %>  <br>
+          <br>
+          Now we can plot the sampled points on the sky to compare with the true halo position. <br>
+          <%= image_tag("observing_dark_words/final_plot.png", :alt => "final plot") %>  <br>
+        </article>
+      </div>
+    </section>
+  </div>
+</div>
+

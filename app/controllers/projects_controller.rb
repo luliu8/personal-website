@@ -5,8 +5,6 @@ class ProjectsController < ApplicationController
   end
 
   def facial_composition
-
-
   end
 
   def visual_recommender
@@ -29,4 +27,11 @@ class ProjectsController < ApplicationController
     end
   end
 
+
+
+  def observing_dark_worlds
+  end
 end
+
+
+

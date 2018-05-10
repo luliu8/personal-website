@@ -52,7 +52,7 @@
                 <p class="menu-item-description">A facial composition tool with intelligent user interface using Variational Autoencoder and Bayesian optimization.</p>
               </div>
               <div class="menu-item-image has-meta-content">
-                <%= image_tag "facial_composition_thumbnail.png" %>
+                <%= image_tag "facial_composition/facial_composition_thumbnail.png" %>
               </div>
             </li>
             <li class="menu-item">
@@ -63,7 +63,7 @@
                 <p class="menu-item-description">A book recommender trained on Wikipedia data using Keras Embedding Model. Allow 2d visual exploration.  </p>
               </div>
               <div class="menu-item-image has-meta-content">
-                <%= image_tag "visual_recommender_thumbnail.png"%>
+                <%= image_tag "visual_recommender/visual_recommender_thumbnail.png"%>
               </div>
             </li>
             <li class="menu-item">
@@ -113,12 +113,12 @@
             </li>
             <li class="menu-item">
               <div class="menu-item-info">
-                <h4 class="menu-item-name">Observing Dark World</h4>
-                <span class="menu-item-price"><a href="http://square.github.io/otto/" target="_blank">Website</a> &middot; <a href="https://github.com/square/otto" target="_blank">GitHub</a></span>
-                <p class="menu-item-description">an exercising in using PYMC3 for bayesian inference</p>
+                <h4 class="menu-item-name">Observing Dark Worlds</h4>
+                <span class="menu-item-price"><%= link_to "Description", controller:"projects", action:"observing_dark_worlds" %> &middot; <%= link_to "Github", "https://github.com/luliu31415926/observing_dark_worlds" %></span>
+                <p class="menu-item-description">an exercise in using PYMC3 for bayesian inference</p>
               </div>
               <div class="menu-item-image has-meta-content">
-                <%= image_tag "excalibur.jpg" %>
+                <%= image_tag "observing_dark_words/observing_dark_worlds_thumbnail.png" %>
               </div>
             </li>
           </ol>
