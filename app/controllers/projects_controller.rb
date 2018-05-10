@@ -1,9 +1,4 @@
 class ProjectsController < ApplicationController
-  def index
-    @projects=Project.all
-
-  end
-
   def facial_composition
   end
 
@@ -31,6 +26,13 @@ class ProjectsController < ApplicationController
   end
 
   def observing_dark_worlds
+  end
+
+  def two_players_sudoku
+  end
+
+  def dongdong_android_app
+    
   end
 end
 

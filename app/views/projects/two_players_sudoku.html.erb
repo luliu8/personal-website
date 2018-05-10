@@ -1,0 +1,42 @@
+<div class="wrapper">
+  <div class="profile">
+
+    <section class="profile-content" id="content">
+      <div class="profile-description">
+        <p>Two players Sudoku game using MVC design pattern</p>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Introduction</h3>
+        <article>
+         This is an exercise in using Model-View-Controller design pattern.
+        </article>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">How to play</h3>
+        <article>
+          Launch 2 SudokuClient.py and 1 SudokuServer.py to play<br>
+          <%= image_tag("two_players_sudoku/two_player_sudoku.png", :alt => "two players sudoku") %><br>
+          Rules:<br>
+          The first player to click Go button starts the game. <br>
+          Each player take turns to fill in empty grid until all grids are filled out. <br>
+          Each turn have 30 seconds, the leftover seconds will be added to the mark count.<br>
+          The player with the higher mark in the end wins the game.
+        </article>
+      </div>
+      <div class="menu-category">
+        <h3 class="menu-category-name">Implementation</h3>
+        <%= link_to 'source code','https://github.com/luliu31415926/two_players_sudoku'%>
+        <article>
+          environment: python 2.7 <br>
+          network connection module: <%= link_to 'PodSixNet','https://github.com/chr15m/PodSixNet/'%><br>
+          graphic module: <%= link_to 'pygame','https://www.pygame.org/'%><br>
+        </article>
+      </div>
+    </section>
+  </div>
+</div>
+<footer class="footer">
+  <nav class="footer-navigation">
+    <p class="copyright">Great Scott!</p>
+  </nav>
+</footer>
