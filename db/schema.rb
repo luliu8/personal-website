@@ -14,14 +14,15 @@ ActiveRecord::Schema.define(version: 20171104005016) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+  enable_extension "cube"
 
-  create_table "projects", force: :cascade do |t|
-    t.string "title"
-    t.text "description"
-    t.string "path"
-    t.string "image"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+  create_table "books", primary_key: "title", id: :text, force: :cascade do |t|
+    t.text "image"
+    t.float "x"
+    t.float "y"
+    t.float "vec", default: [], null: false, array: true
+    t.index "lower(title) text_pattern_ops", name: "books_name_pattern"
+    t.index ["vec"], name: "books_vec", using: :gin
   end
 
 end

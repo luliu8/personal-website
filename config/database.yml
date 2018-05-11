@@ -10,6 +10,7 @@ default: &default
   host: localhost
   username: luliu
   password: Atuan871224
+
 development:
   <<: *default
   database: my_website_developmentdb
