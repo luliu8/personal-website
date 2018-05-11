@@ -1,7 +1,707 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8facac07-1759-41d9-8ab9-65d5580ec7e2" name="Default" comment="" />
+    <list default="true" id="8facac07-1759-41d9-8ab9-65d5580ec7e2" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/.sprockets-manifest-7203c4d52a75f864a356b36cdb64e4cd.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-a33380a2ac83f6c8a1978062e022d047480574a951db753ce32517fd8105c472.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-a33380a2ac83f6c8a1978062e022d047480574a951db753ce32517fd8105c472.js.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-dc5289bf697618fee910ad78d52d2f959c46cd9f73365f33f6157bb90a43f710.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/application-dc5289bf697618fee910ad78d52d2f959c46cd9f73365f33f6157bb90a43f710.css.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram-dccdac4a315aacb1c667ffbdd959a3c6f8b8f4c1ad389551a70f103603cadd8e.dzi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/0/0_0-fa29b416ad8eaa6a0456ae9861ed783dee3cb242f887866427d6f2f18c2f7624.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/1/0_0-13458ad29cbeaab532d8cdfac7f952a1017cee4c8ae03774a681a54592a9b3b4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/10/0_0-605b43762ef6c4a64f54357b746aea9ec478fd44d212ced71aa7476f51c7ea4d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/10/0_1-c19354dbc17bce61d2363ec360f937ec3f35ce74feb5d5eeb65dbf8c38ce7bf1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/10/0_2-383c4cded3b6a108090db09a4828f438f0d6c563cb24fb5d8f31650c31076943.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/10/0_3-1d0410aac509d07bd3affb3895947ce04fb87a8f6314c5a6d93e5a16b5a0e65b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/10/1_0-2d5189a06575eabe4e333871aa7f11ba9987ed91a22a8e06485a15bec21bb968.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/10/1_1-8d428224dfc539ba5b9eac1a2ab772e8ef61a00bff3d3df0f2fe2c345b000b89.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/10/1_2-30b8cc1b1632f27f5611611606a30b028489ce2f64f2dcb84531a61c0570e2e4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/10/1_3-1cb69e42615ee70bbd8b2023dfed02a1656bcf9413f68f5c3416352682b72786.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/10/2_0-21bf3479b5a439ae266f8b70bc13103abf3289336e196f89bd22b4c47589a6fe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/10/2_1-7131485cabee7257b7cbd7540e1a0a5088e1d95576b0f5ad88846c2b3c470cf1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/10/2_2-168baaf5b32a52165ea47d74e58b2b2bf37dd71e9143eb508c8ecc78a9ca75e2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/10/2_3-ac0d036c8dcbb70beb17b8678a5fb005648dca7f0a27a71e3d7b2f8a3c43d1cd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/0_0-0ca532411394016c884c0c2f2d927e759b6e69ca0d03835e7239b18cd4c92dba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/0_1-1e8cf1f6d1448e2021e1e81b0dbd946247ab3919dada01614ca7e0bc52689cfb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/0_2-ca9192a9d8e7d4e5d5f9981099d95ea79c784fa6f032c167a5d5bb3032d15375.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/0_3-5e8e3a5f5146f17c7fb08bd07ed05cfb0f68a2f1eecda34ba4f907a7ea767310.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/0_4-62137b61e09c4c77954fd839b105bb7b6cd6a0685d45d1ed77b65f9d9f167aca.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/0_5-7f9b173ddcb6e363c4b9e69493e227b5386337ba228dbdb4e9be37354855de0b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/0_6-0286f9c829d1981f547c73f49678d51b5c532fd784438d264106c61b07b4152b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/1_0-ca8db8ef6a68f5216fb96f5e93ee77a87f584cc51f8b7d7e11287e2b17298bc3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/1_1-ff9c33f3d6e8ee6badbfa10ca8e50189383fa5247f22cbf5a4c6f8d78c18e41e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/1_2-1befa1ca6a86903b1d0d125283f48c1d87af7575e28e861a2331a5ce8eaac41a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/1_3-e92f8c343995a4bf56c24bf6cc414c0f739e676a6e3467789e33bb680f61b732.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/1_4-c7a6d36dc6238c70ef179821c362a4bbd9a891c133b301881ad960e7478d9f99.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/1_5-907e33a29bc70721021c4cd2653f665102447ccfc2d3e68acfa411a10162843d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/1_6-ed21f8333f764bd37c60cc88fe21c9b0aae0b61a3383fc345217f869b7819448.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/2_0-ae0dedce3084d21714873bb9f7c4dc741ea33b68f810cd25c2be7c3ea7029fec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/2_1-97864c5e71a078c919aa6c6efe1dd320f4f6b2d792a90bb3ebbbd99a8630cec6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/2_2-1d6d14980599164b64af8a1ee63179eb3c209bf41ecfee4e11678e61ef197008.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/2_3-ece5c883bcf27a8b0f148db4aa8e30ae88cea3f5a099811d8d7bc9d80f0adae1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/2_4-a69674d5f29b8ece1a260c5eb584f6e080da641f15e5e4446765f028d4690014.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/2_5-2c8505e854d9e31b411c528f63fa1928e6eaa8fd07b9167093588c1f218179b3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/2_6-fbfc12e6d9f990bcb63a42b6cefd3673ac28545fd2fc6aa39407bd145f2de79e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/3_0-3e15162208f97d2fa49f1e28e93708f69486e25cc66a05f95d2821a23fcb11e9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/3_1-f19355877abc83c9dccc9572947b66340b27aeafc3cf17022050a3e66c3fa4f1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/3_2-92ec60007a9f6db0bd4e1ffce6aec8abfad367d5bdc1c4e2a7850e9593d304f6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/3_3-8dd4d8d8d468788625ddbd96ca1c0ec91057b6f35b7e225e10f13f2f82f09501.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/3_4-a97510bca41c33ff5559b505d3ea3cec59f8875bd8c73d563055216badfa6feb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/3_5-b346bfce81cac257307e90d3d6847a3d45487dcd9f845e44f08e988688e73f73.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/3_6-e9d6df47f07704d0a9869232877d06a351d5074a25705a88963d5eb72cdbb41f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/4_0-c01712f2d9e159e85cc398f84fd24a594963b0acc016c91f1b65dafdeb2cd08f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/4_1-b35c85804712f15b819e502d21d6b98b9c16f8bb1b7a3fe34b9cad92c7232f15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/4_2-dc5dad65401c334838e7bb3b8714f0a824db70bc5eb432b131c76de0b477b1b6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/4_3-f8e96ae7a41e8c4d7f20b149b365c0c237a92d75eab86eb049ce5a793df98e43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/4_4-c0c9b46089e2b4c9f82a5fa1925099790a70cb7e3e59943d64b3dfa1a6c45d3b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/4_5-260acb8bd1a4f768bf5fc0b4aa26339f261d22a40fd6568f8e1d722ee6364eb1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/11/4_6-fb8778ea14149386aa3faef45e84fae467a8ab59e54691ecacfb9bdcb06ffb37.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/0_0-609d938a87fc7b239aac7773f95fb0e211400cd088d3687bb2e0975953349e7d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/0_1-957105747d335f8bd3204b182b26277070547fa50a9197fc2a920ecaaa69aa27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/0_10-cacb0512d97ee6d9975258c9661118625fc8812ae0d1631f9f12f6bda970967e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/0_11-7e4539502465890898ac85daa922ce34879ccb14a6205831715b4d4509b16edd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/0_12-bc3f136648da294fc07e409f99dd5d71eedca3594d3dce8a21b7630ddccbdfcd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/0_2-0283da5be0e7ccecfc76a6554f4c5b45e9e348b1c6d63c257e1ba0d51ebc6499.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/0_3-b17c500b6e402044912cd729e1d3c0007addc444aef34fd798103e157233f2b2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/0_4-81fd5bc7c08cf3b5e9a46debb17bf25dfdd832925e3c79c8015478c0a0572e2d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/0_5-347738727440718c2c7e8bb1d5d07eaf86ae4583045f51f010e76535b7369fee.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/0_6-30c7bf15a078fb1439cda23bfa073011dc4c5e1645c589d0f1b1206b256f11f5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/0_7-a36029a42cf61d802d8beaba9ba7b5a660f9cf1e6a34b7e839efac115593cff4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/0_8-9fcb517788990b0166070ca354d413309c67562a291a93060ccd1b1722112ace.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/0_9-a9b2b26255b82b972e0819dd2acfd0c6844c1c814096506ee325a4ef79c81a21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/1_0-4249f1491ed4b94ddab88a13a3595a47ed32f624c414533894ebb491f1889c76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/1_1-e9c67c6efab6bd380552714669c0ed186c2c99bdbbfd4cee6adb89a9f80a60a8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/1_10-439f4f91ade49a35038f788089f17c42ec0bfeabe33f72e4ee6feb864c566163.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/1_11-2b1dd04bad8a500a6d0db81658ac7d694975ae45d1cd3f3f2015f796606b067e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/1_12-6c7bf3b0dbff39728c1de63305723245cfdc8e12dfe7c9848c4bc045d3a6b429.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/1_2-3a7b39ef41cb2ca6a2fd02d004bc4ec4717131c599fe741705e56b3097ab21d0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/1_3-6d6057594565c359a7bab30e62629df04469b4255af9fe002e68806fda64f581.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/1_4-794182ff82a19605442a98a9779383294bebd7245ece2a7db11060585d41e214.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/1_5-d0e4f785b026e06054cfc86468efe362306a51039cf46a2b64dbd0e9bf926b3a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/1_6-b099aa9c2e537b439cb78823f13e4afb01925ae04d66857d94c6ceafc2fd61d3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/1_7-c4972a5f3a11dc9c1f6f7b48980048e762266b04f475da32206f3e2a0fc6a9bb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/1_8-4995b73c92dbf51639b0b87e7e4990267c2a157fc55fcb6d45ae8e6775286630.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/1_9-6715de25c70309ae6fe6ad4a33dd4c5bcd7b84f4b69b60d8ee2f7daf10ffac21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/2_0-5c3cecdb7248419792a0bf61aa1d12cd8175d21ccf414cc6ad819a0656065685.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/2_1-ecf076b8b094ae2a76f1ab143b157fa25eabc86e154100ded82c34a229d3b37b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/2_10-d682e18f1510cefb31c6c516abe98a0f293ec13cebf2da114c54494104f44ce2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/2_11-0ea427500f891bb2330a472531d1e6fc70f8cd124d927451fe929966614d8e12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/2_12-4142439fde70783e94fc121d21a19e63984f8c74cac11490194e600319a1133f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/2_2-f8695897815e868badcb1f70833478ddfcfb1fd9e3710540fe18392f785f6beb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/2_3-b9886740e7d795af86c4eea5f6182082ed15d82f7aef2ad6365d173f9b52eb8b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/2_4-3bd3b7da187b2653dfa7f0226d9169add72f2a97520e77dc10fe0cbe9d7c5422.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/2_5-c5c59c6d7ccf8615514d164abae97d3dc647b20e7fd8c183d263b49aab3d31e5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/2_6-05f83afcb1f6b9e2a169c7f9103ad4cee56f3e6fe66a75ee102dfb9158bbca71.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/2_7-9850e15be04c6dd8f935a1096c9dc06c795aa8017f41b66bef2af93d43149ccb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/2_8-1738d4f1b3ff8aa7370af346dbb184030c7f5414f5381138411b2153df5992a4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/2_9-b8dae226a329a89a7988a91a65cfb8bf8487dbed064186aa96dfd109ee21b15c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/3_0-dbe6ca7e7616298ed6cb8048389d1ce53155c1e1815fe5b26484524ef6e8bf79.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/3_1-6fc294841f37a362958bc1d0921a2d496d6478255d889eeb4f3a0b90347c6e08.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/3_10-ba785c6091c54a791c282a1b34c6bbd853f6708ecc83433f1bde2916e6324997.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/3_11-32e20bc70bdc96625facfdd38812b2b7f1c1dc237004adedbb773beaaf470b61.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/3_12-dec9b38e32c41163086871ada935fc3e59d57d7ce5057e90ec23d516becd65df.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/3_2-20e8fbfe0f5aba5ca2c3b4d6101b3dfee65fbdb9ac9b0d9b9d0bea58901f6452.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/3_3-47675683e29ac78d8df3bab59d01bd79534defca3bfb1dec91a0b22c6e65d5d7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/3_4-5dcf264bafe7318a8ad7ff5f43227a5020a31f3ebc6e25ec9e415e8217f57862.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/3_5-cb1679ac93df74683bf522fe95ac658db0e5644bf2a0d669e2e3e5c0b4e52787.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/3_6-057a6144a0f16b304da36c02cba88c5209c03442b6f9a495e285a9c748baf5da.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/3_7-37890211b61d12f46bd5fa9dc2257d966ef499ffd7a027cd7a4bf9fdcd8269fc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/3_8-92e2a562e89df0bbe76c733a65eefdd037c07f504e23e68f5ee1630a02f075d1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/3_9-9e010fda16a9e74eaea791bdcf67e93024084922fc353906d4dc59fa7a828a7c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/4_0-bb895a75d49e4b97392cfd901b56d3e2aa6d1e588f30c239f6bd32a7d661ef27.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/4_1-f2011feeac30396054b7e280a9c8163397630f310c8a1b11a6f210ff17d682fc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/4_10-94f5580cdc2ddbf46b3e4e00515f11fa0a06f465143112946ebad50db39a91ff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/4_11-a6334ffbfd91cd8a99f2e354fd0c1696c89a51776448341b20a449e5715672ba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/4_12-f4991cc484c435688ff28297a3f7ca026e05ec87af52d9deaaa5dab923a7cda1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/4_2-5fd3792964b77502e927929348665cb917dd5848a42087bac84c23688f288ad8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/4_3-1da65d1898c3a6953183f9b43d07285a0ad96911ddcaa0e5458581a256a8d910.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/4_4-529d39124c1c98081516d8f4d25ff041fe2206cc3de9e9198d5e1f00a438ae7e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/4_5-4fa45ea366fbd433b2ebdbe4f33d1f6d1c7a40a3a3697b89ca42018a223c88b4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/4_6-b92959ac97fbfd0d9a66609e66bfde12de387c643913d86d67bacc2f6dc9c249.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/4_7-42f1b5faa6fc3f655e1ec186a94216a08b391d7cd646f360c162b8bc70dacfb2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/4_8-6ebea3c499112a16a8e994c708b45710850de5d54226e10acf37bff3e8595e10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/4_9-d0a004984f8f3b4b0b338065be1dabd8d302adcc4cbf04190684f61c05218ba2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/5_0-a249d054689a5f40f28200e4dac8815813b4557187f7baea0b6f994221dc0b22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/5_1-7def1f52ba3898996f7da4e7443fbc16d4e7d4326d16ac08b1009aad0cb9d986.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/5_10-d6f4e82032d20c245f131d438e46c952f5dba6647cb43cbd3b117583952daa29.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/5_11-bbdc4f435972ff82e2b52a7c454392f9d7f369b6c5cb87ca4e65cd29c9dfdfa0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/5_12-848d13b874e226c4b85cb68611f516ae552498b7624d81e5aa34e065a52d7871.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/5_2-3720cfddb2554201f0dc56c4ede6289e5f5cc2de68bfc74d87e8708e349536fe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/5_3-1b602eb89708202f4fda3c590bcbe28f13725386da19dbde7e1b194497d91dd6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/5_4-fcbee90501461b6b8a6ffabfb5969b1f1626047424728877494d9bc26ae088fe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/5_5-87a920c24a6e5ddfc4cc9a37b24924e54c074749addafac7616579ce82ef69d2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/5_6-095cc087b7e54f84a6084d8cce1777a0794446d611f082a50c3989b8c03d0fa3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/5_7-43638a296fa69f60639d84dfe4ba4f87238bb2fcc576937efaabe6af6936ab15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/5_8-fd94d37107ec53b400c7c37ee69effe0f0a8b156f3d75a8d78c9bd4906ebacee.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/5_9-a75e27947f10e41fb13d151f00911a96836a0b245da3ab6f3ce7c7e4174393b0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/6_0-ce429502502d58f5cd59eb9dd62fd8a679f83471fd254b792867f8a5d6e48462.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/6_1-b15f4642929d7f0794c9a2173bf0dc4e178bd2fac36a28e6ceb9282ffc004585.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/6_10-8fad33763280c4b04960fde76cb467bb8a51b14c86c9e1354b5bdb5acb1c3a9b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/6_11-7f96b625bd4b52fd62da35c6fae4df0636cbc3b8a31e4b35bbd7b44d6e3ffc6a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/6_12-b499efc93256fc8afce75ebec5f237fd65d8b722febbf624eab12d3709d0d687.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/6_2-acfcb96abd031ee98644abba94530b066bdd950a4e39abc80db27962dd3051eb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/6_3-6898d3d1333e7f361a47ba68dd8851e2cd0ec4db097fa76b61f9f791ada4fdd3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/6_4-d86caf45bb4867f8e1410dc778aa50ae1eed27f1659ce557a83de9978d97d080.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/6_5-c53ba106c0d722c83cf45d8d4155a7df665d34046f9c4d30281abb7f65b81d8e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/6_6-d44b52716f1d8479370f392f253a54b3ac6c5bdad628eaaf88d17f7c1657a5d2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/6_7-27eaeef270b1459d3d58bef010337ac469ed95438973f3fb775c6684bb463949.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/6_8-a8730d364d422b173f68c82e4c0e9124a8050110e94ed9de5a384bb669b2e8b5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/6_9-4987ae837bc7af7b60c3ee7e439aab249f9ea6fc12b034d0fb69d665ec05d288.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/7_0-be9a191c8ecdb4ae2b486c204e06f545be08b657018757cfdb5b534b9fcdd352.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/7_1-fcf27a653262d45eabc164e9b35c4eaafc2e7a08f55ac7ca98b9b9d329dff1ec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/7_10-d90ffcde1179826faa4e717034f530545a36847ee8ca5ce4c4d957f72f082e21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/7_11-02c14171fee41f8678217e4e284f22add9d227f406eaf45ec2857fb63f620a8a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/7_12-cd41719ce63d079590d3d179a9ee33df0082e180bb06002ea7759c129c31417c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/7_2-eb1dd5509acaceb15558c45564d633d65938e39aae975e71cea05c175f894e7d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/7_3-bccaf18f00973e196c320f4bde99934b15175a62689feaf71bd0f6b9ecad8cfd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/7_4-b02b8c4de71af12c24c8d8c3f4bc6caf808c46e1a49756be0f5a8d297fd19d33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/7_5-852055fc490c31f0155090c83cc6872fed7a22c3a315f350f5d1a10752ebe551.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/7_6-d2c483c1e6f511951633ab81c1db5107eb312ed7ec17699fefe347a3c702fb43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/7_7-2b7a14eb9695e40bca61d6e33cbeb1fb3bfeec6e828bc5ae329f45c3bc2b8038.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/7_8-b089daaf83c6745d71f139a6e70d52974544676524c8fa25190941d189ccf624.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/7_9-033592741f1a59ae70757102e7403b9db86fd145c5eda09af2962797912ca674.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/8_0-251a252b1ffcbefd9e70b6733a8d0b6c43ef10bc2ef8319e714720ce10adc89e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/8_1-50451259bdb1dce679eb5c1c208a29d4cc23ff695fd525eb393ef94824e28fae.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/8_10-a47640bfbe3d058433a4028a8820b96ffe8872bf62c22351bfdc87a870c6e75e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/8_11-fba7387871fdad52596e318431055e936baa4f72ab3a91ef673b207063e3ab45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/8_12-a1174b3cbdd6619cefac87b1d5e82fb51b66dc7f26990b153aa8c5d197199ee5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/8_2-4c4add27ab467e6909322f36d4552eb99860d766cbb1fa428466925b79fad23d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/8_3-6c0828ceac2208e94064d66df71c7bb9de8fef46f02a506c4fcb0d2efdb47a12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/8_4-c0eb4c341eda50747bd01a565788ec06d6f2649d8def950c13fa5e9361e9a56d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/8_5-83ceafbe1a4a06041b65e0ef94e06c0d12b306157de115a98eed6ba1e5435890.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/8_6-81664838900ec721dad4739dc5fead98426f14b03d78b9bfb38a266976ccfe48.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/8_7-d0ab97bb203cfbf30faf5c0c6569023a211952cba139a806b171337acb49d94f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/8_8-6b827849d821467bdde29f26344715b96fd1f7753b7965106c83b82f234375d3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/12/8_9-3ab13592f9113aacec2fe8be77c507ed048a566da33dcb58a353ed60edc5289c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_0-d065956d01f3d7df2b8f68ca782e6ea79e2ed3ee50f3dfcb5c199192c3812164.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_1-02876484dcc0b3ec5bc8f2e2bb1bbaf1ecbcc7ea0f9a799c0447503922c69c52.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_10-8afdc354cd7bc9f96b1650f75fb75836b005365b7f99acc452aa743a8f7e2a36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_11-fd82be0bee90e578cf8155365fd941d453c242a04358a2a53d1d198ca8351af1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_12-a3c87ffcc2bd9b1d902ef74f65224158c195ec9b645203d6e72df749cef2bb28.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_13-7861133e26b6bd48a21c0ae26d26d44cf8e622295e133d43f53bc16e4c3aa2a6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_14-6b02574343e51c78ee6e8abb0c8a54fd32845a438f9ec50be305663380a5d041.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_15-de0915c90efb69235e4363dadc7a53aa601b5519da4374c35a8da8603d8173bd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_16-857344cd116d0f998ff0fd9b757aea1f44015c34f2e9efebdb67ef46372d4382.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_17-42fe6b701d6dad4e115123da447fa76f8323cb76d18f40cb4580685faec0a3f3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_18-c77be874483b277ca7637c9eb0c9aaf2966c7592eabe2d8311ecab6ca4a334d0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_19-b22bedb96245d082fcc34a32fd6b239ea13cad4ac7fa214e22a45b8dafb3fee2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_2-c820458dd7f79f573d9d173d07e63d7e0da58c0e6b8020653818efa9fe6685e5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_20-935469d5b2c2ea312a7c453383532f94e13f2b8bba7df0bcbea6fe3ec9607723.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_21-319aace8e4040e50d256a40516ac99af34826694129b1ec5a7160dcfb824e1c0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_22-f85248c037fd66d94010b2b8cb2bf318506995136e296fbfb276ed2c6417e982.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_23-8e0a8d9dbcb6840c7b45a172b05404a8f2e727d66def6b3e873ff6b3da2cf239.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_24-f6da3280f7f1e1a83ee19ff026970152f6bcee511da9af7d128cee5f4d386725.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_25-f9592284d9a8cd3bf4b563dcc3d907b8f13e996d1d3c713c61d9719c9bee9cf7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_3-5df81dcb649231b86a599aec871a2b6f6c0636d30174c18ff6858f7acfb605b6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_4-55be9c24f346aee10f3a32817ce8defda352437e9c73053139bd52c3a7ae5fa1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_5-44c16fa8d7a2c5af5791cd182713247490c7622d62849a87a14769b75d4a1f2b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_6-1ed3ccaf68e024344c347d5d365224ed370d907c92d694de6b27de42809c1c62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_7-7eafb3ea6abf8ac0ee64ef87e9a52b21d77bf4c86fb33568b8e65968d366d62d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_8-2828613d3afd8ce59991407a4e958178035f0bcecb2d7761340286a808535533.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/0_9-32f937967f9a10caa4a5faacfa6306ae7c5793f0f7e2d24fb948db1e803a98c2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_0-afc2e4a84be2994c3f8fa061369618d6685820cf57ad298448e8926a19d5e6d2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_1-5513b9766da2c91d317dabedd9232f6899b0d9b4cf2c71fccf758f5ca3ceb760.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_10-5994b6f1720b4ca51df90ecc1026668c9eb23c7558fc6dbb1e1ea0110ad98a5d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_11-9f08f6b062fc12e2adca1a090a157ce83f29e43b0ea3040c9e15a7f6e69faa4f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_12-427fc6b16df22205547c8be7aa1ae7d9f8d5293560aec3e6d0f59209bbd30760.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_13-5cfbe9d25d74d569d3526a017df08dc45a26a9e38eab26abd2287e972af5c425.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_14-196b53f74383cf638b00cd215301c3b36f870a8d8655d7108e466d77797de9c6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_15-57c8d3e0945134e519561a04ea4176f6373654ffb4f8e77a4dca3894cebea56a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_16-f4e77307ec9b4f08904a751ef1b3f4b5cdeb268d7709d4f7b26a114b24b1b6c4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_17-65668a03151727f76a1a00e6bbc8446a7bded1e5f01091a5843eeb4303e65495.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_18-dce07bc0d751b6abcb9a7f7add8275685c67332e9fe063d27834587cbdcf3737.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_19-5d7c2753f697a28203719fbb07be57f1b833d3bbdc5c73ea19c15565909afcf6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_2-66cdfd03c20569b0abc759c792f204207134cc5d070a497b010c257f7929beb1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_20-1724f6559462e4bba08f0a0805da9742218459b24e867516e797309c92a2a267.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_21-05825d5ab31e853da64ca2ad7b57a7535b08998a66c45f351cc4c0172d30d9a2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_22-a494b3146114c65b1cf687ed990fa3040423c239102792f89b1244c9268df28f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_23-7d3debc5111c1d0c9dff63ac404497f2ff1f0fd26e838387bf327e5511e1be8c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_24-54ffd1247c333ec23b197ae18304d056d69486abffa7e0493b4f1e3840435b81.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_25-2216ba440b4679be80f552fc4a065a5ebb81221528de61fb7e249b28536e9f36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_3-6adf4844f38ec20c8190eddb2a3f1c7b9b66d1db190011519009a5b0e7f72f98.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_4-5679c84d095da8497ba402f4e4fef724e94d652d530341c232d9bd51c0ddb9c1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_5-82e43fede57210fe775d806b561c00bfa16d5cdc5f1cf17641ada357724e7d63.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_6-cab9777a66aa6eecadf94edd70ed7244310763574ef6279b1bf6b6ca3593c115.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_7-779f6ef41acf1a7f218c35d97c50e766a268ae21945b902e0676f285e43e044c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_8-6760a561be9c2fb8eb947c5582ad637dcb2ec8f2ca5513e3529404939a5d4fe6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/10_9-3ee70cb7b6e337ab49d7d98e11992fab0d0a398f098549f0347e1a7fbc5e349a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_0-415b4ba1e866de2841d149e2631ba75d1fa1d1aa038d6a9d9dbeb1e44ed62e67.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_1-0eb8c7a617b4066b5e353954e09945354521da1707606765492a695d303913c7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_10-791da34cf4f362516cb30f8a08e9cf5e5727b9337b7ba7b1e63d38be17e38734.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_11-c53b1edb23a51cb8ca2513491ffd7d7b1600479c8c13d27c6282fd6391d709c6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_12-9017f007e20a0e68058b15dd614ebe2a4a0a55dba14ccea31937f2e27befb1d6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_13-1674fc61f1ab7a742ada9e87b37be8b07d19a2fa3bddab8034afe96432570185.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_14-d9603047fe7b2a0f800cec92d579e447d7bc712c3e0858928ea79464dae5c032.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_15-154fa8d78caf37f2133b4ff960a3606544e9cbcb614e0dec33ec03be5b719a4e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_16-21b0f7f7519629667c0b965d1794d8df73a8a91a009cd94877aedd63e30ecc58.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_17-3b9b826b30736c4a0f1cad1cfe048c13cf25997277ad6f5af1242aeb5513690a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_18-1bebbb48cc7d216c8a0df531e657364c6abcb7795ea6bb4b0271d2c69da50417.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_19-3590755329aec388af36eed93cf16b33409bcf86edf760220d6a79bd7aa3d547.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_2-1aa5ef6d939b8729a90b044fb0200fe9a3f5f9c3eaa3e8f50b15f05aebe345b6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_20-594537224f3d6414d645b381ef447c088005dde713dc8c376d94f00b077ff7d8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_21-8ff7d91b2571eceb717fe37f17da8b5249285803556c7f483ebe2645aa48be4b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_22-5ba660074a1939de1682a6e5013ce8c3297e7e00f2a1a8636591adb151e85e36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_23-b861e0a30d7c232c86849ad1b6c87df153ad0ac96a4a14878e603479dff4a25c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_24-94816d2cd5a9a097a1cd0cc6e09b111e5350de4531b2b384b7bbdc91b459f87f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_25-644dc35b664d2086baebe2ef9287c56b62d04beb825cd98495f0687770842c38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_3-0f6973066b0ca07ea320e07969fe48e371949ed6f6336701d2b451d8318ffb94.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_4-e81d63156553ba00d8c20ec540ec60506dc2b3f41a09c598446e60502cef637e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_5-1347f4da5cc7c1fda2cf0aefa4cde81272d49888851126dd01165fe2187562a7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_6-6d0cfec58e5b03a82b69e22aca7281985b3e3dbc49cfc6aee369e2d16dbf0fae.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_7-2c90842050b28c46700b10b83737548f78552c705b74fd3c7634f0a4a29a45a9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_8-aa67b7d3bec87a14e786332ba6063f8bd6b35895548a080be99908e079b16727.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/11_9-3de30ae07a543179234207e2c70769bf6ddde53c3bc2ca6e04c1fc16996ee201.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_0-dc75d18b71731eec0b2f1b7c2f586742db35511a6650b2344afbc51f9f8a2b90.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_1-b3f4402b12232e9a12f5806c91abd2cc4daf7907b4ccb5e742cc3cd79522afc1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_10-6cf775942ede1b0b3a5234ccc4bea5d4dbe92559805022d89f2b439abb92f59d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_11-48ec51661d349753138d3f6c8621478e1ab74863d23487840930f8c107537227.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_12-d6d7d3c15979a5541235a11358b31f40bc5190dada463c34ed92231cc5391166.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_13-224f2eb2a1e78ea9926594f64b23ceb8a519de730c6a16884a74305f1288eee4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_14-5f35675cefe8c34b39e9ccb0937af35f9c4d6289a7331d8fbc33c5dac19728f5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_15-2e400d1b317eba08d6825dfe9f109208b5b4ffebe4d0bbf2c40d5065b13071f5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_16-483914937cb6c73f3f99e6e844ade3550ea446da764e91dd18653b071929e4c3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_17-da0867c5c0ae51100d545863760a7ec660b741654a17a8cd2871a030e34b3516.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_18-5f8213a3278f5d37b2003627ee89d8e3c33282163df242f4c4f2b45571c357fc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_19-700e1b0277307fae1271f57667521673ab56cf6e3f218244aad2b47cd7754e61.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_2-ebd7a3210a6bb2d844842c84a128df8df458d9f09e7e6f702ba2d8950225bf4e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_20-fc37c3bae57f0f691090d0c70c8161cbed06c5976fe128f5bccd583b61dcf82b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_21-0cdb14f0f3ef0c8863b27361b44c0b87a8f84ca5d5d673809d21d3ffad7b6b81.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_22-3f278962c1913ba91d2989b0341fa4718387a7381ac77f9d6291e84e9e95e8fe.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_23-3ed51794abd0bb87d7ea3efa649e7f18856d3b5196958d0c36de5586b43eab14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_24-e0adbde09939cee3e4bf7675ad676c319f3d67da60fd589296152653948b3b10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_25-2562a0cdc82cbe3203d0f05290ba72e67dad88e83148558aab57d55ba6764c62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_3-bb95e0b5dce6df122b86dc404029b921bba59db7c7d4f54d89506a6d5475e476.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_4-aabf01b1c730fe7948f58a0d40481c8c0a21ebbe43bf3c9a84c263149f114f9b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_5-a40797f11e628970b79f3d33ec0602ccfedb3e2751d3cf334c2b56fa8bd63200.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_6-ab8573cba86a2a0e6dbc8d844a3d4d5f99898c9c77199c87ff967446dba949f0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_7-b8013570b1e221d3d5d75a48237a24c5210a8e764db2f6e90069ae12109ef534.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_8-fc48d0fbda12bb0778d124f9105df691835091e7ca947c977f889cca1ccd1739.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/12_9-537f8d5eeec9c5ae113469a0c3e4a62b21da0f87bd8392bb7d0a61e6994cdd59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_0-6732932a8ea848ded4188a80eb5b626a4165fb0c2c20386225722513a5620249.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_1-3a445f36f29d914baacf183375885829aa58ee0501d7ff4e5db26e42f577f9e1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_10-5a4657674161c58a4f2b530660a8a4e38330143c828240209ee260ecd8544fe2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_11-19868459f2821168a6a43e58f173ed964659ef7a81f71a60d702eb909158243c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_12-3ceddb0e7180401e1a92b45efea8b91839e4162707a53a616a09588c26ef01d8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_13-cdab84bddc3942b8d304a940d8d8bb83d97e480299df7ba2adde7664e185c819.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_14-3a21733cbed98c08e6b2fd3f4e933d044dc07bcf64f87aef9bde5c43dac36b8f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_15-0dc5d6c0bd78e06d81ebadb509947342e3cf2e21b27bbe23cdf2c72fd06756a1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_16-545be85ecf9b90e6b92881a00f26ff377d32b6775fd2c92933a74a1fb43deb98.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_17-5415299e5d16923af44185d5b0ca2fbd7c2310c7086a60a459e67e5de51e52c6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_18-4851d54b3d74919c234a74ce94a000a5fb449e3f4ce76458b0f64c48bf66f388.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_19-2105243d78a811db6294761ae388a2d6566cdb95d0c87e18b547c99c74f78f85.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_2-0e48448a3ab940f3b028ffd143a1e4ae65db0e3a10241d6af21501d9c6ebc5b9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_20-a3f665087b641dc6297855bdcd3f383706b0c48feef186ecd0e5193a6abc9acd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_21-5b54f6e96e6290a2a5a163d786d373d329f7564b0104a36fbd92181c506d55f5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_22-06e8c478797930a00acb9305321f42fd917e2ed1b9338fd0923acc8ac042f121.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_23-85a7063a245f2c211dca5b52ee46ef6de8efb953388295c100bf6d3d4e655518.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_24-a021c5899c810bd0c0ab99ac95da1f13d508f3ddadcf8ac3438e5143b8e5ea69.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_25-5dcbe4e97d00d16f872baafa189fef98149708e8d88eb723d1a328e4b4ac5aac.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_3-9547f7a8bd4b41b05fe02aeade7a3b91c334bc06e9bf9cf342bad2addf6d98f9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_4-42119a8cf1f5ba0cedaa99b3d0dc504a08f26966680cf6082db62a6bf0d3503d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_5-8355e44d27f0b22140a8152a73c427824ed3820d66114bd0dd935e39d24d9b7c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_6-30692e538655f4d592cc3ac0119d6a36c2a36a35bb8ee919c1acc0e828e82b62.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_7-c0b1332741e6a8f147cfcfe112fab9dea0b40c2decd2cbf5c28b28f28fd08d6f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_8-76ece12bf17919c7a67155af147c02ba0171baeab9c074ff7e54e34c22f50d36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/13_9-9f46fd3d6ccc03faec892bd0389506c8a28086035818a0081e23b5569d50b13c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_0-4b0be0e95956a607bc0d1d98fa7a0f88858dfb8935af0e0fbd632fa889c95f5a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_1-25455ab712eac7f94dd7e2d6e96e3f8737bf05a12ae97677e7d98783d863b4ae.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_10-48b54fb4a081924c4c743a4dc64bf20aa30759150b522f8a75e9e89c11a771be.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_11-523f399d1bdb26c46435eaa1d0ded1c1881a212f065f041cd46d2a98a705031e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_12-18565ad7374f171b6eaea896a00c7314c118e539ed52d3defa03981552d4e66c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_13-ccf92f9dcc28de0162596b455e1548c43bcc1e0316d77e146eb503f804740116.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_14-8d9621b003c4ab0db5d9c05cd13dc8a88bac493bb0171c5a1614861424097b4a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_15-ac404c76bc90888b7ddf6fc7f434c6f6457559e3bcb2fb3aca18bfc714e014cc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_16-6806941c4c42955fb66c83d5672e605d629dd81b1ca999665eb3c70f66093c3b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_17-789d32926ec851f34e84aca7a63e66babd59c1a339d3e64b02f5bc0432d8f421.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_18-ad728a645a97ae9e35284f0aab391dc8f294379b28abd197ba59e83c6ecc26a7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_19-19cc2eae5b184b9805c502f91199e23973b61943c7b61ec6f58d237495817b82.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_2-2d846866376b18d8a882b3b88da96aa61b3f0e6a97d6d1e2413891850a1652ed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_20-42aa0a50c0add0d0e3f21c4a0be4dbabeeb16155e4444dd6c354375515182edd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_21-520075f2b2c2bae3d1ee1e055d388a49de8318fbe163d22e8d8a9a2550a8c014.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_22-4cc2a02448b1bcf1dea044134d951392a548d39f626a52c19589c9be10f7f464.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_23-72c647ad353b77819dba2ebad74005d95317d9657623591d80825cef15fed51a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_24-4a861ec490434b7ccabc2051195588940f1eb03f160a145fea368904cd2c9b8d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_25-bb044544efb2453ba7c2ec1b8b03a9a4ed8ea9211ee399d3e530ba08b5fa6563.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_3-aca103f7811b456830c9708893045d3baafcf1f954639aa12b6dc201dc6ce98d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_4-00b410d654a5c5d8792bd0fda4ca349eb549e37d74a18f80f90bd65bdab9d59e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_5-c2967f9bfcb759dbc80565d8288a7f32b72a9139b95584f4778ef8148ac044ba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_6-8d32b0eb4515a5790f8ec5d3820f1e9c9ce468c344034b97ae5222dfc762f707.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_7-aa010f5223fa83aef36673aca8e2b5748b94cb4b2bbd8c1cfbb29c45f94d5318.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_8-9ae96d1a59e379bd477d20dbd6ec50d5c48b58f5bbbcce3d16b550a8d0d84f76.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/14_9-6f814e665b4728a123bf7ca412c67da03d31c1f80c280470e2ea5aa797d051f8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_0-628e748407d64702e5c7faefcc895d33e27ccdb807b684496693ea7dd9a82c56.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_1-99c383d3fe903db659e2e293b1af6989c1717a4b7d6034cfd6f6d0f38ca39c96.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_10-b0fbd53c4a5309bb207b9efd4ba86305b1230de45590027c4a7e281932360cb2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_11-72e9b3c62d9f53b53be561b8194857b52094f57b31275cae85bd54e6f7862f9e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_12-8c0fa4e52158609338e159a77d684dfa2ed53d63784d1f07dad6f2375efbf3bd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_13-cce696be9e9c51b06d169329ba840a7ec3c8af2e3f715dd85884bbec3e12ab9c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_14-08c73fc45235a0966a1deb314a943c6fe5bd5c236a339594692bcfffeb37b766.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_15-8e4275e106c620b50378fc80e95cccc21015e1f04957b331abda3639083b2d13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_16-97e459b4482b28ac9e30f8d2770e37aa43dec177ed844f154a1e3d84712b6251.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_17-fb7824a3ee2b725addd5525cf0393e6ded12379aa321a6ae2bbe3a068c0b47bf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_18-c62dfa05feb4abf82bb14dc4927362d0a63ccc604ed6d11ce096e556fa914a45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_19-29a5c57b1b69076eedaefc0d7432f87825cd4139784573a061d65398c51bb4f7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_2-c314f9980be4c32f611430f6e3953d19cf592e461cb1e737f22fdd3a1ae6594b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_20-38be7cb8980b66a48ca96510f1e66ca57dcc02fc76f2543fca01b437a605e909.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_21-6dbe9b10e4b199ff05082e68534d6ad37b92e89fa410d1ff93f2e5cc3eadf41e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_22-23e1324bb8e18e18418093230f643b1ec3397d3f6ea1613c83e727b00a0312ff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_23-ba5e4935db5448b2b7dc02cbbff0fbd40312f1537fefd9aab979c1d72659d9c2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_24-3124e77c5cd57c3dd241d6878e93d4ec1471ce74d64a2a299a003589f43d86e7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_25-c1cbaf7895b38ed9f68cb7a14efb01652e51fa2a94da45b6c2e8462a4f77c938.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_3-d04fbda0ce3065c6bdad0b9ccbb673b17e3aabc0e7c2ea169b4762401fdb32eb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_4-d59de4728ee4bccf25260c163bda7ba6d2b2e5fe2140ebbae48ec861d9c2a817.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_5-80fd011cf534ba3e92c52d8527a4f3c3b4ddb3caaf246686e4dd32b9c49e2a86.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_6-7176b827005825a960016846f74a2fcc7b800c20b5f1a41f6e733b52eb03bac5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_7-155ea4d8af23d4649b9d9f26743cb6ae162ceffa4da305c1a33064d97061fe59.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_8-3050db5d2865a51fce2b691fdbca3799b7743127d94177d750b1e68b50ee737f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/15_9-d85dc671953b3221d6d81d4028468261aa3d9e964df20a10c79bc296626a1b21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_0-41fd14ae93b6dfe1b201ad8fb33c3c569cd745617c3441a51a63ea7e33367af0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_1-8f0e2c7bc245af66c3d5ed36307152a05bc1a933e17d782612d2478f2608d24f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_10-c0f2195f664f8769110e647b2492975c6e23179975884a0f303db594d39a398e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_11-63232640e24b51720a032e01bd9edc1937ea345534c878b134f6e343321764c2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_12-fffba6a0c1eb3c8f4a0cd4ca96d84c0cbce457e339e6b2767fbd28ea2033abc3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_13-a7ed415ab2f1d9ee81574f5e6590e6ac213a9f622071549c38721395e021dc5e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_14-1905a3a0bb88017986fc36971cd75f8f5004cce111c50aa279cc5ecd1e16a09e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_15-b52b1e83a8d6312413302b784457df5bff30ddcfbb56a073d2c11f02deeb5850.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_16-77e7a5162bf63562806c8b751d3150f9e9651d556b6fbf03780e1f6d740a21d8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_17-db0d4c7f7d8f6ccadfc9599291685edbb763e31e61153de91a1e6a4d25c911ad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_18-1dac87e4360f9fd4cd0f2aaa468ed56200769e499ed1de36399aece5bd5239bd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_19-51489654db81b13e61d80e05576742c47e0a85de49b6ddc0b38e86a1c080422b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_2-5130953847759df6b1c18f9c1cfc329d1555951b899483d5b837a46304ebdc2d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_20-abafd62eca4ac176b492ae16558e7834f3c1c41cd46b40232da278bb7469bb02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_21-70228c2fccbaddfb862c3a7fbc4692aee9bc8aa02b83aff13d4c2cc43b87ab5a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_22-62d7f97857b14cd3294146155a2903b3973c82dda9d16d92b477e1392beb377c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_23-1ed375dbccefe0dc65d90ad6e52a7cef44fe76d4abcb2093570876926f345bf6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_24-fe5f6cd15aac0f2ff7df3adc5f8b86108cf9d9738450aac73be720eaa752e876.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_25-ead06fd81e057630f4a1ce1f770a0e934c13d6ee5fc597223ad30982d9bc7620.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_3-91e22666b22b2946b2914c2e8f4d63a4ff66c233707c3cb36d29643ff73e3f1a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_4-698f38b2d1e6f66f4be12b6c14abbe037d74286c1bd1122e4da32ca79cb22c4d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_5-1619973cad671b16f615cd40a674128bacb7644e36ee6a4ec1766d4dcc62bf0f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_6-030fbdac09054afcd5f521b771276fe2f6348dda8af710c845d9b7e895b2032d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_7-761dfd5a640eefb809440439124a25c2b80eb51abbd9333ee4c66d40268eaf18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_8-92a7a4440fe17fcad84275c6ea64896825d6be27dc075980a31b8b554a72dee1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/16_9-2e20b22fc627057fa6e0b0b93b0eca77837a83be1a44c9e21b727e9fa4d6d5fc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_0-f47c8aac16744953546dbb7f32a00e2e462b6be9585c0ddb38ea8eee519a07ac.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_1-fa1aaeb63c4e6cfc23a9b97f9a490572e3c67af37ab5ee9fc0b3ade5c96f6e12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_10-b014977c7c60fcfd9da3a25f879c14e488c84da09fb51112272aa809bb2a885e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_11-4da5f64ab869efe34f65a83178e3e4530e5f8945e794db0faf39a06a050aa1d0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_12-18184c5425f7e65a6652378f6d2fc6aa0fc70aaf9ffe93418cc07b3f2e0d5349.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_13-f6a9fccf38152a4ba768831c3955e335e61850d4c52d5e40c0bfccf7d7ba0eab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_14-2bd0b659296e4dfdc39c37a6dea167b633cc1f56242817ce213f020ef2be5aa6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_15-486c26f9d55c515ded0970a3e35822f0441fc91a022d07bdb5e7b29dd1d0e66f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_16-165fc1b70397d69056d1cc4adc65c559ffc6953b53670cf8e3fbb49b939e904d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_17-db2ef9d61410463cd277997e9f8b84ceb934553160904820c6fefe4eff39139f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_18-02cfdc29818cb95cf6b57fa82e6495ecd72c7d907d46e7a658c698fba6e06191.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_19-2403ec5a2a50053b45e08bade0f48b230d7455cd371a99890460c704ba0da96b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_2-ef2ba58b180771da4278190e64a866c86015e181dec7ef99870c782ec94fadac.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_20-3cc99d23d2605991877881da78f7a19f8224a8f216e3e28ec983e8bfe3f5230e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_21-67da514117521bcfd6a54fb7b04dc451437ce2a3f01bf314e31ab54e3040bf12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_22-02bf415428e2f7a01bccbf96d47e094e1cb2bbfdf914739e3a7529453063e99d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_23-b8dc1d373c9a3059f6c51da7d5c33c8f1536272904aab4530cf2574b6fd257ef.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_24-034cba3081c57c29dfae58401a8b56286b33aa451aa84c407a7ce125b61a2c77.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_25-12c74b956846a57beea53daaabeda5f3773c4abdedc7e404e20d2e41867e3bd6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_3-4b6445c6e8ef19d70533f086c0c02ca50fb645de42cc9f490f839834caac7652.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_4-9e98a784b6448627cfde57ddd08db5a7a264f76005a2f20d2c3f56a47c164260.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_5-6126f1f114d00975e86eeb965cef9b61e9554e6f15b6315b158447b0bbb6ea38.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_6-769eec012614f22510fb356b8dc0a6fa8d23ecab0e2dce8ac81b8872519bffc2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_7-3588c0327566c21de9062670d73463166ae69605c72a74368ad718568776c1dd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_8-cc3eb7808c3d2c64fac5bc77b1f2fa777724a54611c133c5992a3ae4324136dc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/1_9-641be306e68aa9b245cdf50c50e93aec56943a5dc8492c6dd0041080f8ad5e63.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_0-3312eb3ac536d3d983ef7aa2ff1a80aac5531c24e9b725015a3f5d5b866d6544.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_1-38cb17925f622505ae0fba2611ee9a74911f6e279dc908939a1a32236f76dffb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_10-267c7e77d063a526f6638be742d64a6d051bd97ee23a8e7d31b5183883be864a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_11-f4a7a3540f2183396adef5ddcb4f2b62a2eb0864e91ea4f449bc5f8ec033b6c4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_12-ccb4950bb4c26fd8b897db489bc17a6ee167ab2417302ecf65ce948345ff7284.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_13-ae09a6ee149b0ab8f1a9c5a2c1b8144ae12cda6755631ba327e8cfa611f4a482.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_14-25c16088c470e4a17c0e5c63764a543817699a87f141b33f85583cbcb7d87024.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_15-192d45e29f8363208c8cb00a8e9c2a850f7f378c261c9a438be439dd15a6b68a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_16-aea9791d98af35b5944abda2e3ece27db4b433e97fa0f13afcaa8a5e749d6618.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_17-a98348bc62f2a86b0d31f1ea7d657166791e7e3c7f78697636e06102926607d0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_18-9431a4cba377d8defe2df9ec5a2b71e8fa2353af7c3616445099c0acb805d814.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_19-af7d4300d8d607084484f921b50838f473fa73e072260623d4cec7ebbaa1c173.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_2-33dc845149f48b5c3d25f69e14d79640758dc8ab44efe65e05f4a7a4268782e2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_20-8947d6695ebfd415b36bf07729ccddb4e7ff1d6498c594ff309fd4f01f5cbcbc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_21-889d00f514d2a49d88a7bfc20b52260d821dae3e8a17af2d6df154ee08e9e122.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_22-66c253ca56e71c83e589e3e62f4297e8d5d91f6d60f364763fa08744516a2dc8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_23-d102b1ff3c9facd3664b21b7679c070da55b7a435b1e7f36df849e1bb59d194f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_24-6a069a1e710d97e21b5d183e024dd4c6df14bf6ed4b49140df975981f54137f3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_25-248cfa1ec64dfb1f2c0c7b00bca581a006c76d0bdd535f59246dd5c3d8699401.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_3-0ecfe6352f6fe34e2ce982f16a6724c68407fe22e1b385e8ea569f30c3a5401f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_4-a3c3f05c39c05fa6a592e5ebf5acff1f0a820c4904b4db761dbcef9331cfba8b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_5-9b7f8374734ead85003aa864ec7b6e5327b4d583d8999c60c92b0899a614b2f3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_6-49abbdeeda88fa8133f5f2cb90123f04ab05b135387c3a5f590c9134752bf9d6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_7-fa61f6dc57051f54360d80f0a337ffc676a519846311b21d25f46f025a2ef9c2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_8-6290ed569bcc6627700f9f111eace778c0a9756a9af320dc6a218bf035ee1e21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/2_9-c573ac61693feac85ca614271c95ac63fd109f9f1eb69e9ef61f0fc00228a650.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_0-a21b77df7a2d056d54e6b644ec13fa2f698cb7bc20b05d6ad0c6b12932e0b759.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_1-cf71be48478029a1f63cbf73fa281d355e968055f63ba586489606bb1a3d35b0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_10-22f47e97775efdcfa7d15932e9c231ec8817660945ee2c75037c39625f691d18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_11-762a26f100e8e34625d1a61ef149ed2aca38695083584649bdb65f59adc2815f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_12-b5dde2550422de5eeda5f5f20ddabea2e8babd54416a49bb8079e15ad3b1b63c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_13-3365924789e321a59fc48653586c1efaaa77bcf0dc2d3ac844e39f5157aa261e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_14-1706950f38b3660eefe5898aff878b215ed4cb7dc2fdb3d15ce9f4423866d865.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_15-6815a9aea5b48b62b60bd16f2904c972d5344fb2ba4237b972441026201d7cac.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_16-c1f7d8a859a48b204b70fea7eb4e83dc88530576bcd4282133fae839c72ce4cc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_17-c32cd0192c420abc8e1b95ca50f2d9dcf4e751d3a11fc22b9965de16e2fb1c57.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_18-286e669baf5a79ce4cda266d08d984bd9693efa6730ef6f0b4b8b86ba6fb8e61.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_19-badd919cb1e885213d222afa8ff0550372eedd61b3034da8e64b2733d5f75252.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_2-d200919fbce514096f5ae025a3f87dbdb40a705ac576c3d64cbe1d6b8053cca2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_20-69f8775a0ee9a1a78cf27850c151b7eacd534df2ec6c23cae08feb6d4b9b0b75.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_21-390bc849b792ad46b00f6c7117c929933cb89d1afeafef1e6cef4f814c1cf999.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_22-15f5417f6f569553ce882498b8fe35eed259c4028e912b2d2ef500f2eb0c6216.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_23-3539b3e60dbe3abbf90fc649c0a53104c7bdd7c20c5f68f4c03519b8b40d5d33.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_24-a3315b52482680e62bebddc13853324b9d6de334a5d3ec6cdd4236e7cd0791c5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_25-a787317ca433653e71bb1bb8f54963fd7a7cc3d93d7ac94fc92bdec1ed227594.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_3-9a96a6e448a670595c27ab13ca3c543c26275c2fa32054dce72fbe4ea5200bdd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_4-9101375a50fd3101e9d559eeb204899239f89c9207988fda86b135f22cf9af44.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_5-d3f8ea31a4df49db4fb02e9c99a2c5b06ebf60e67f114e6959d5fd30da2c7531.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_6-2d40dfa78ee73fb5fa323a2854cff7e6e303ff06c45bda8735843366893c00aa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_7-e69e1fbacd8a6cdd494ee2904e02afd850dd31d25472d07e2e7c3c198cdecfe9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_8-04871a97e3e393bae0cc0701d04de426b5f64a97a30f5c350ae50c36862cd912.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/3_9-db49059352781de0724459a7e94bc365f7e0fba0cf725642af73c9b3ff0987c4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_0-78cb0ee6544132417236101a366e44a9353547e2c332015e93f22da9df1666d5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_1-19d222e0d02a0d204fa8be82df3e0e2797ec3b9f92a7d03933f7c683efa332ff.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_10-e23bd83a7695b964a0990273b2a1b3fc3f294e49ef91e2c5a717cbd273bb4544.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_11-45a96f5e8f40b4a776ffcb5530f3b5c56527cc172a0d615fd6b44a6ba1062b36.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_12-6960de81eb70a14ecd03e6075b0aa71cd040138b4ce9a6f64d060ffca9fbce04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_13-155114053c2705ba513dc647912ec7ab5ca443276c486b9d5d74f908ba98e7b7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_14-c135c0bbdef67702b80b732bf5f32cd0ef922c73af2a0af2b0edb1d4de1e37fd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_15-b154bb5e55c3674b3e8d2f1b62b9a9efb5a0ef4ad7d35acfa446842f11b6e82b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_16-b9299e7b4ad71da29f9a5e7a17636acaa5afebe317b4cefd8ec90be539a6246b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_17-d78582b51b1a73d98a2f8718b5722d76d02830f0f617aeb8e76c638337cb513d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_18-f3b8ced4bfc9a47f3a10d58e09402f85f8775aa0bb3168382992fb670b9ff7fc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_19-c29d4bb71288285d533cc02d3d5b4195f5304c59a49869e6330a65e0a80d3a79.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_2-38c40246aeede5dddd37c6561c7384415e7010dc870db1cdfb946e553ed6f59c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_20-7232b0b3bf2566932c36e301ae321b3f759d36fe233a2daa34fd575621ba4f1d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_21-136f2a47605227144ec2fd01f64803d5c68e265c894ebab830b525e10aa88ff7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_22-16f9c8e1d08e58688c5a455821e870330df0e813ed965ed08bdc919f956b2551.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_23-6251b5d6c2f76edbc67e705e265babcabcadceed441e00d110b8b706ede8e025.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_24-bfdccd9a27ea5e6ea64836c7bbf3c8b64f0f9eeb7062fa023d998544cc34c4b8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_25-12e0ed995179dfb572c179d3a49561f1db7fb7443fcf66caccdc8a86dca9b0ba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_3-50b970328730795de4bfd7c0ea9629865e51e54f7af620d8da7c7a6b0dd0ee1f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_4-95e6561426a087e930b8fbf09902b70e80d9a265121cc5aef226c83905b65d8f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_5-bce340b569345e27d11c653c82f574d0369143c6bc41bff7e5bf9d2bb4d80b86.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_6-380a3b6c651834911bfe69664b2d82412f4184bbe58805d0051ce95efb3ce601.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_7-068bbef342c17b27146cd8012d24ea53898afc1e33192052233b427fc9dde0ba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_8-b14d0a579b0163a76692419295406a28264acdb4f73e57a00a9f324413342161.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/4_9-eedf2710763c64f25527eb2a4a579a34efdd5933687dc6ce2359aba7baec6928.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_0-5ed472b3e8e81de10caac3204f0d1901fc6e6dcd0d3be1c7bacf840dc439a0bb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_1-df1a80e9a265747766a83ec2cdc06ec8e0ffe297750721a5098d4f1b3ff4e37f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_10-8919cca7c3a2350db027ff0a53b422a356a31f83566118f4b704172f5d27371d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_11-e660f3700462476d83f72beafb2a991180427b06632b11198581b2c2a0a803e6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_12-8559c85cec479d2a9feec6934a527ba1099c607b81e7d7fa2533b7a68ef7c2f9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_13-7fae53b3dad8167a5ca3e3993e8cccd39d8fc7a7eb5b6c2a9a796ef8493a38b5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_14-6bd09029324433ac70ab207581b87892bc92025b29bf00f2636752f6795d0919.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_15-36cd3a7499ff20abd3e78d8e02ffccc1605433ab7353d61da70f476979b2103a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_16-98ab28248b717858c1dbf1b61d3482fe5d7749c6fa33facd9dd24dbe6cb863e3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_17-0d2d8a30e3913e0db3e3523c8114d5fa9cd204460a6f3e67871df950ecbb9ed8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_18-e22fbf746ecb9321b6605315ef4616d2daabc6b668b01a58cd18196137472b01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_19-c8fc99f54463097599975a782a5fddb90b388cbe7d626acf3ca6a305dd518337.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_2-f7334945ff1a95a846ecaeeed0ad245ee20610e917caf3b27a9c77035e7f7089.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_20-226eae52e6f54b71093b4ea4e13c0a22ecc6890f9446574763ae49d5840593f1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_21-96e5e96d2e7f103520afa1ea225c9ef1ba346c23871b5bfba2b9ebf0bf9f16f1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_22-10a97b30d1d04e3198eb9510c3c5368e4789bf7876448605846afcae69b0a237.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_23-d7236883ca0c907843f19e136e310a6b7acaec2343363192dd8de66253444b4a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_24-57dd2ee667b5b5697c5fe43037caebc310d0a2c0cad8a5d1df42990c281ec29a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_25-c80e3ece41e7077ed9a11fc4a770d89b27d7d984125eeca05eb967a43271692b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_3-78e7d25bee078f7eb084b81d4777549b92835fbad97f25f17efbe8469e4fba5d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_4-08bf68f749f7217c866b47ee04165676370d82fe06745154e6fbb18f2e98c16c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_5-af51ef2e9558752ab5b9336778853ae651ee50ee8d4c95ae3b747ee5c81acd45.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_6-5c553eb956b4bc5b957b4d91cda64a02b17777076cf636c4f4feeb076e4906b6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_7-98c4cf568c099e18fc2b3dda4a29a4cf1834988a1f07896d7fe3051f43bff39c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_8-192a672569122990efb09f4f501fb1fb82c9fb1d96c8b8dee76c49833695460f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/5_9-eb8301d8231c2f2ffcf7f451a8d1087e125d014d93b25deadeef34a2ddd9e2aa.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_0-f30978fe2eda9c5c9ee26d1acce22b893b92f5058f57a42ca07657c6021fbd26.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_1-8cfc57865466854a798bede3420745fbecf53e62cdfbda3e6d730645ae8501e5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_10-cb98a082020014dc1aea490ac3b01ef87dbc1153dee69bd14449234f084b1814.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_11-b80f6cba7f1e453df75ad94f9e3a8a24e0414c7a0c58901294957a7ef9964b3c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_12-22f5539538f31e58c2913f173d45caa0a6dee9a935d2734c487df6fd11e07636.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_13-d98f741a8fb59f075ba791220ad460fd17471c4cf4ffd952282b38575914ff41.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_14-7c87df9b3a0f6fb10b15d7e05622f2fbd22df5a841b0ab96ecb36cb14840122b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_15-ca6ff023565eb4f9a491ce426b5338d3b040ec110cb5756b8c24a55496b02e78.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_16-819df80c7a2684a92e1e985dc7ced5f2feab761112c37126b1a7344a8802c857.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_17-fc79e27f78d74dec6f51f745ffcdb3fd44996717d8f98d13ef527bc0f7be5276.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_18-4777897c96d859eafbe66d46afd3327266d9b7703cfc3a0df5b84f6057417180.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_19-263fef180fd71f8f6f2f82ca5f6cbeedf3ffa07468c0b6eb69c29b08a9ef26ea.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_2-fc3b6906701862416d9ec30dffdaa2a61ce4e9763170be72e2b6e3e29fecbc12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_20-e752b06be88a6328129f67193eaee4c76e8aa5c9b1587485f58e1bfec92f4bc5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_21-d5ad1d28a7ac36f61c0aeed3d2b83a96b34754e9bef43e1e429ba9858c93484f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_22-2ab3a8bb19131048f815aa7873c65560cf480e123bffd4f9197992c2f4f700c0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_23-40e801b4a3d5fdda742669bfcb242218b71ba59baab7dd8377dfd00f29ced01a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_24-8c6ae0b9468429296092e2620e923547015da0f9a3b59fcbab8970e952177a78.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_25-7193b8ffe65ad99f3ad1b6fc6706ff187a1c14f4afc6388ec73becc419694240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_3-27841a9fe3572380cd74dca6e85b1a4fdacd25fadcb4c644cc1a5f651e01124d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_4-ebfafa88e80749ac63317c7b8fc7535d1cab10e517c011d6fb82a0346feedd69.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_5-61b38f8fcbfce7f751200a58ae7bc3205c266968c631b3e758fe445cf377a7e9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_6-21cc08a5cd0713282329ea10c7060d1ff0550308ab4b9b2f4328aa49c67883d0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_7-e7fe04aba55912029f5425865b2e85cf3fdd702ee83646fe0b6a2cd1b58f464d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_8-0eda482cbca1e724272a5d3927658ee21c39d5ce821e827ae185886780cc885c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/6_9-824d570be4235e2e937b25774f14e8bbd953f30534aaf13e8d79bc68804845ab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_0-f517a7d7a7aac5e745fb017f0f7f09f6b5599eb898e7e7fd4e4e1168415cbce4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_1-234365c364fd0a8d6ddf18a2ca47e115c9864dd2a5b80df5d9a39250682caf60.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_10-4ca054791f9586196bab7e2a85e5b93fa0809959237ff024504fc5bf3412c1a6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_11-81b4261c3ae45b0cbf4701ff825d82a94a12022570b43bd81afe991c8c154e1e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_12-8b1bd34fa1ee57f83007902b46d2c8be1ea7cefc14df143b4057da6eada8529f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_13-9558c7f7313cf13888345678dc343541077ff369c43741ce42c249e49657c4a8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_14-f9c77999635fb942888413927d5231292c85c01434c689cd91e6edd1ba8c6587.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_15-d14a3b54b4792e6f9f3e58e01b776a8be07c1e3074c9a45a41750a285c675ced.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_16-9640c393ae06f114df10f4f2f45012784c4d8890295e9d83986dcfc321e0638e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_17-9bf33566f0df2a52d380472eace84113b21d43c685cb57add29a80fca284f7e7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_18-4a02656cfc8f73b14b5ce555b3758f2e73844cd9b0ddaaeff808c7312a8ec79d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_19-44943dc248f9d8a56ccaaee711e6531b5a4113f9ddfd16045dc73e443cd822b8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_2-c14c2cfd6ebe00435ff5c31c219450d2daca4e48dd9b9b7b8950a1700d33c5c5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_20-dfddf7815089dd2ac1407517bec60596bbd70f2a0da3ac63dcd1d30f77262437.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_21-faedd8f80fc4bc6aa76654cd0c33dbce8aea21aecce368c556955dd379256a11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_22-7193aef15be0165e456565bb6908aee664ea0994f2e79ea10428934f263f0df5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_23-5ec5ac0d4de440ab33dcd461bacdb726843285d488df487f4e2a8c75f49115de.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_24-bd1dda274b52105dc96b686458af9bd8e8d50496a0a1b631cfd55569e984e318.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_25-928aa9aa6900c8dc275065adbe85f66230a8a549e0c9887f8381bc3a0d7a6ad5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_3-e6e4e89054cd0f7809aa47365c161ab349c9cee4eaba99c0a34df599085a5522.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_4-9a5a857e9d73620c2b7334340d509cfaa323e790d3be7a643b4994155c12fa1c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_5-5846f3d6575693e981344c1c81dc6cd50fd839de63b49e649eb1225cb13d9de1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_6-beceef08711712b5847b8a096c77b9617bbe2166940da69f3776d130251ddbb6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_7-69234ca6885108a27136be9fb87a6347389c097dfc3414bac5ed3439088fa6fc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_8-bad7902246bd5c0c0ec9c2219219bc58646578a1274f1652f00856d46a20e550.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/7_9-c7c986806d87c105e74d18802b796b9c2df969b66221c940f77ed958de38a02a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_0-e967a583cd9c803dd0f65180c429ab8d4ff263a2ee19c53f924f419fcb663e39.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_1-3f2057bd7efb6ccdf625b4db67ed1c0b332669508a1d67b14310c0af3402ed5f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_10-77d92fe2f2f699da00de65e029ef64ed2a9cc618de40f9cab9f272572933f2a0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_11-ff597d031cad998f633c96f13e8de9de72514f5541611914e8f8a2e3af22f611.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_12-4f022b5ddd3e9ce66ee27ad29a09bda22c5af237b3127a0ecae3ac76bbcdcbe8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_13-51f0026971df90534be9441ee4ac4eff358af53dcc34c52e5ebf70289baeeadd.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_14-c1b659547e5e00738e2919962d0c17e24c3a0cb1a47a71aa8cf9c9d450227bca.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_15-d1f8b1111431c7a4f2c00f0927d59afe12dbb28405595493a8583cdf3f8a8aa1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_16-e918babd312a433c324658c96d6e362f7cefd7f4bc63f465d61979c9ef1cbf2f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_17-842e19662f0fe525848db507b1f9089c96b6944891030b296dffec1778ef341c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_18-daefc43d148b5b2ccf716097391dc7a30b9d96ec30adf0435e8ccd9e271ed80c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_19-e6bbcb74ac7ad66137d26a1afd6ecc8dd832c9a04ec0c67e10deebc52bf932ac.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_2-d7077317f0c03f2bdaddc90a52da3199fcaa53ab5e8afd15443c0e62d35a6b6b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_20-f044d662e0b133d382b729554609df43e9ec222e94fb622bbaf274633daac373.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_21-6e7b4c188dec796cf66db01e27c9fe6a8c10608ed141183a0c28f5c13c3c3aba.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_22-a71bc44ef0c7572360a6e29a19999f64be4ae0aa927e016abe305546f6433fde.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_23-282cfa11e803a36f794113f0bb5a7ee3b337cc2ac14eba9eb0528fd4a1209734.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_24-7ef66e4f8605d56717697462be5255d8c809b6b41ab2a21f571641b3f43ba1e4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_25-cbdf3e5bcda3cc51d664979dcdc8a86c60150ce8d561623d5547e80fac92d0a3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_3-f0b305bbc2a774ae6fd379a46a1b9c9cfa4bfdb22103999cc7904353f1caf80c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_4-5ca1f71e2b3bd025df3bb4b81848ff0504585bc050df73d0d43aad80a53b4698.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_5-49dbbffaa81a594d12d0800698200138ecd0accff42fe81ee5c468d1d29deea3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_6-28cfcb90572d1752e4258f26a22fa1adcc4e6a2ad1595dd73b3278bc40f572d8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_7-23c4780eeb0731bb327863833549c47d79c16d26612dbdeb6b57ec4a0a9c4123.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_8-b9b0d72c2c9a9a1076597df29f1ee632220c0a6234915f2ecb048c0ba5ab8f35.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/8_9-6cc4ef57a992ad1354edd008e839ffe6761c7153e16cc6abfbc982aee3d983c0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_0-e03e773780206b4731de664153a03a9edfc03d18874c20a6244dbde9c9e1881d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_1-3572bc0e0d693d84ab7e39199268ac4c42e916657707db29bf6833e9ac5e8e16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_10-da63e6ce87daf0af32bcd4a90bd08600a5641bea4357ff808be919cf6d349289.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_11-b710d8b21cbee8c54f008259631cd0c42808b00bfaafde3702ced9014b718c07.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_12-36afc4265e93b41bf86011351a6c0789cee56af35d2aa2b0bdb3a0c5c75e06cf.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_13-48977bfdf669c86ee2cbf95644d938c9b120f8ad01f7c7dd5a90d5bb6af9ec6e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_14-1875815175e036537e3cb34f1817ac408be6982063b777e6173ed67892195b18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_15-e4aec55e31aa5ed02d8ca152b5d29c69a56ab793e25dce4dd5f4031eddb6069c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_16-5c9b16c367cc6ef31ce14575e499dc96f48768133133a4065458db6b2f16585a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_17-c1072addc5801c1923b8fc183518ee0ba50da4bed3e54fce7f5abe462b1b5667.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_18-807377d3990d96157040e1d08adb67914b02aa111dced074f988aa06e3d6baab.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_19-e56e5467aaaaded7c1cda0252c79dc4191fb8571b4cd9d74d15f77367f139c1c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_2-0e96f4ea4e4c2352fa02a8732341681f11e924aae13262696656d9f002acfddb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_20-b6c7ac5e75965534ea52fcbbf67247dac740446b7b6b4a277148896eca2d2972.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_21-c2347ae3842371c58d4f434aedbd6db32e9584191a277aa23e0505fe5efdc1fc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_22-d0cf8b514046dac2d8ccf8538b013176b618e6e76f0a185151cdf9dff8d3c8e9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_23-06be1d3b3e2f0130b0c297c10602f1a2f1329eecb8309d5fcf0ae88040cde577.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_24-6dfc36fd19cdb5ec096650f7e72442169bfc1ff311207c1910ef89b2b929c566.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_25-3656971f50c4ba82aef3d645b8507276741696592acfcac4a3e8128586f05d54.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_3-3c3857ac3226dfcb8dfcbd19ffffac70fb7bc780800b84baffe858ae0bd1d3b4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_4-8e2cda6df0d9d876cdad579522e94eea1f0293ff56bf0c40b2a7801846b0553b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_5-e60b2e3ac701ed95ad81837af28527c70589ed6a4d42a5d1d08ce268baf48037.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_6-8147063dd4984a20da8db71d54ffc980aed8666d1ce772d81a327ba3c0b371c0.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_7-6f6ee1f4c1eacd0e3e6ee871ff21b37a9da2960f318c3060cf99a53728f49b7f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_8-0590d8c4e0407b1836cfa9b297a4cf6fa9bf115434925073a9a9b47325026876.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/13/9_9-fb2f61ea789e3b83ea658c93b785e3592ce80fd43047b2f9cd09ee0647fee405.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/2/0_0-ab4d1c22d533a655070e42696a008490f0ff78eb4cc1edfe907328d4e784e541.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/3/0_0-054b2d0926e33583189d1c75f21a303f3a3bebe9112489fff0dc4266da432260.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/4/0_0-ea4cc26f2158f0b9f2ee910d2697d9e6d28dc5e99ba366eb82435ab61558df2e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/5/0_0-fa4ad082382359be1fd5864e5a84c38fc612305e4ac189224f80cad5167b271a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/6/0_0-e3838f30d8709304cc0626288c5501b135d9a3076b14ae425ddf04715d78f6e5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/7/0_0-aeeef754370f0c12a780c93241e601db2f03c0b30a84b6717a03dd7e889f7d43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/8/0_0-02e6091f1943ba04b270a320044856d172b6f4197aea13134ea583bce9c619c8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/9/0_0-b9be1286674ddf267a2ff66f7346d2f60baddc31d6dffd557b786df566f5f766.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/9/0_1-7ebfaa548474f50894c28bb89c76766e949322356c64a7c18192d6befec35b4c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/9/1_0-94dd66ea67449989fa93871b1db05dd5af1443d0e28576611b816e2f1d1c6f43.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/book_recommendation_skipgram_files/9/1_1-0b67545859d477c503ddebeb44af9d5af9988a915618daecbae6d6819ff8ebae.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-13634da87d9e23f8c3ed9108ce1724d183a39ad072e73e1b3d8cbf646d2d0407.eot.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-42f60659d265c1a3c30f9fa42abcbb56bd4a53af4d83d316d6dd7a36903c43e5.svg.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-a26394f7ede100ca118eff2eda08596275a9839b959c226e15439557a5a80742.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-e395044093757d82afcb138957d06a1ea9361bdcf0b442d06a18a8051af57456.ttf.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/bootstrap/glyphicons-halflings-regular-fe185d11a49676890d47bb783312a0cda5a44c4039214094e7957b4c040ef11c.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/company_1c_sales_prediction/1c_sales_prediction_thumbnail-8fe9e0b1013e54d025e5220d49999d80fb1a700a903bfbc331b4f7197aaf705a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/excalibur-cd7d919d082e396ed4f1351e8089bb9e4172484122767ff1a9a773c2283a732c.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facial_composition/best_image-399f93f51f643699ab1ecc28ee7c2da382c9c11b24c81f14c351da45b4693e5c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facial_composition/decoded_sample_images-dba6729a9df7ec80237567a2f2f7c8ed33811154ce2f38c2d0ba0d7601ff0017.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facial_composition/facial_composition_thumbnail-0c2fc8f2fd28b5c89753711b20df7729133d519bd4e691d41d14e737604ae687.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facial_composition/initial_selection-9d78b3336b6560c5f7db4ab75bf415cff83615667726d792282d213b3bdfbd2e.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/facial_composition/iteration_phase-1ea393cda40393663940607b2751c88ca8837ccf693670517c0c348a88bf7ef5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/favicon-036f32e4a35594ed6d7e045191a87440c09456ebaa0f3c815ed4f52945f8901b.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/favicon-036f32e4a35594ed6d7e045191a87440c09456ebaa0f3c815ed4f52945f8901b.ico.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-bg_flat_0_aaaaaa_40x100-ae65a7ae22c4c23115948fdeb5c05c9137dbd13ca2d426b3c4c3c4183451e410.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_444444_256x240-31d988765b4e6f56553c29588c500381dc3e6f0aa2980c8212202e5644aefd5d.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_555555_256x240-32175261daee76c82bb0edf0eea16a56421866fbc31e94f3c1d570aa114502f5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_777620_256x240-0b020fc6e696d88d296e7bb1f61f1eb2ad827848e2c7382a4c3e0999e702dd9b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_777777_256x240-faf32007ae120c302213557626e660dd10e711c5dd4f1113d35f26dc05b78d2f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_cc0000_256x240-40985a64b4d5dd213fba27fcd862a1bd1b337a97674f6ff0b9ec20abcee4bc69.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/jquery-ui/ui-icons_ffffff_256x240-350df1b7131037de20e83c5c0f3a41a770d2ac48b5762ea772b3f4a8a7b9d47a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/observing_dark_words/ellipticity_distribution-531b0302598600a142d8fbdead75712a1ca3d3db1d547b094ccb21de20b3db3b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/observing_dark_words/final_plot-adc0dde9b4bafc4606d10ce6d6d7a00e79ae23ae85ae92a4cdfc839a01643aad.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/observing_dark_words/mass_distribution-4b6f0b98b539eea9a60b30ed67d17429432e3096405b7fbccc590d1bd34d841a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/observing_dark_words/observing_dark_worlds_thumbnail-a34720ec7c7622ef06bc4c7be6c97f16d60024c04b306d172eb1cf04db0b5e9a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/observing_dark_words/samping_traceplot-82da35ac8bae9fc10db164dce28818f61b65c649d8ac6ff1d9e1a54cdc4ca117.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/observing_dark_words/sky_with_true_halo-a0df1c52a0a6cfaa2a11e59709dc336f77af2406f13477cd507a8ace80f13fe1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-bold-2851b1d44b21960e27024e7013ca66ac7e098cee7ffe2fd695d927f28af76178.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-bold-41e5032f24524589217035086616925c788852dfa05399ad744133967246fdc9.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-bold-41e5032f24524589217035086616925c788852dfa05399ad744133967246fdc9.eot.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-bold-b2a0045c07e8430cf9927907399bdaf7fd2ff820b86f708d33329b7df8e46687.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-bold-b2a0045c07e8430cf9927907399bdaf7fd2ff820b86f708d33329b7df8e46687.ttf.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-bolditalic-1484788fb80a1043500287a6794e786f5892e4522d73df20694d3650ef1dd2fd.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-bolditalic-1d7dc6d6f06fe677600949b662a600adff15f92001c3715afaacc536b82413b5.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-bolditalic-1d7dc6d6f06fe677600949b662a600adff15f92001c3715afaacc536b82413b5.eot.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-bolditalic-c4a70b582e4cdc64e6635c249c52d19eb5b722bde828277bf9e5f0d1619a7a64.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-bolditalic-c4a70b582e4cdc64e6635c249c52d19eb5b722bde828277bf9e5f0d1619a7a64.ttf.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-light-1a9f51d51b1849103338a5080b096842a083a8f1f8c6a7a8e136a8af4b6d3a80.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-light-1a9f51d51b1849103338a5080b096842a083a8f1f8c6a7a8e136a8af4b6d3a80.eot.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-light-81e9e6579d547e286de287ba8510be1a8cc06d550b9a58866ffe99384a1623d5.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-light-81e9e6579d547e286de287ba8510be1a8cc06d550b9a58866ffe99384a1623d5.ttf.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-light-bad5b167db96c6da9195457dfa823f965d312e75a6be2b0aac9c50a09f8f2538.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-lightitalic-11860a9053c561fe83e522e27c036cd8b118da60f3b1440a00363b0643f90de5.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-lightitalic-9c9eed903f7bec44ac35f36c2abcbfe528d6f00eaf9501f2e0f4dc168f732df6.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-lightitalic-9c9eed903f7bec44ac35f36c2abcbfe528d6f00eaf9501f2e0f4dc168f732df6.eot.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-lightitalic-c28187b14b9c0224ce52256b7bbf126c092afd496bf80a6973f83c1f8e0359ce.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-lightitalic-c28187b14b9c0224ce52256b7bbf126c092afd496bf80a6973f83c1f8e0359ce.ttf.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-medium-0b1d45368406f5ddc802ccaa060813d38395ddcfe7deae67e6ae9db5e3294bae.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-medium-0b1d45368406f5ddc802ccaa060813d38395ddcfe7deae67e6ae9db5e3294bae.eot.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-medium-38a6db3593ee0939d1f6161aa36c9b91c52ee13e32adaabda6861e92fd7febb6.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-medium-38a6db3593ee0939d1f6161aa36c9b91c52ee13e32adaabda6861e92fd7febb6.ttf.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-medium-3c21de5d72e7f034a98612525e4718c3cd06192c7aa5ca9993ed378a86325738.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-mediumitalic-3688fc9fe1a34027dcf42129804bd6b2db98c7b48edc47832d05a717f7a8988b.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-mediumitalic-3688fc9fe1a34027dcf42129804bd6b2db98c7b48edc47832d05a717f7a8988b.eot.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-mediumitalic-e291c8d6505e09f7b2a1f600d0666289d1dd4f334cdfabb5c8ea43a13ecc0b59.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-mediumitalic-fd46e644d8870cc230f34db282d1db964f7ed5051aa13c1320398bf2eef59f02.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-mediumitalic-fd46e644d8870cc230f34db282d1db964f7ed5051aa13c1320398bf2eef59f02.ttf.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-regular-641dac536941375c07a1979da7efd1c292e24d3797d75fb008c2da993b897ca6.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-regular-641dac536941375c07a1979da7efd1c292e24d3797d75fb008c2da993b897ca6.ttf.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-regular-7e9db26b801d8ab87720c191f17da246261d3559648ba772990bb9e2bb9ccf9e.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-regular-895593004fe4a5f66346b4a899078d4a161eeeee4727b0f9410e4932b01af8d7.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-regular-895593004fe4a5f66346b4a899078d4a161eeeee4727b0f9410e4932b01af8d7.eot.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-regularitalic-5ec4f810457d578d309e8513ebecc7e027d049c93307f6098445062147d56449.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-regularitalic-5ec4f810457d578d309e8513ebecc7e027d049c93307f6098445062147d56449.ttf.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-regularitalic-77227ea26c71ebb25c11e117e274e0e9300da7ca314350cc3f27904aec454ccf.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-regularitalic-e5260031dc86cba0d8e92e453fad1f6e8a520142e8b3f1cb671f6add06d00348.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/sqmarket-regularitalic-e5260031dc86cba0d8e92e453fad1f6e8a520142e8b3f1cb671f6add06d00348.eot.gz" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/two_players_sudoku/two_player_sudoku-d894caa90185d166fc1941dd97bb247ecca0503770b508cb813f1bfa3af57fcb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/two_players_sudoku/two_player_sudoku_thumbnail-8dcc1d48377136a2b45c21af22228b10a918a3b1715bfe144f305a4807e00f17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/assets/visual_recommender/visual_recommender_thumbnail-04c64c9374522f6a51c617c550260cff9f72ae4fd0c3e75c5888a85e4c7d8218.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -61,7 +761,7 @@
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,7 +813,7 @@
         <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/config.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-703">
-              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+              <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -123,7 +823,7 @@
         <entry file="file://$PROJECT_DIR$/app/assets/config/manifest.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -359,12 +1059,6 @@
               <item name="my-personal-website" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="my-personal-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-personal-website" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -530,12 +1224,12 @@
       <workItem from="1525297485729" duration="13517000" />
       <workItem from="1525821160735" duration="222000" />
       <workItem from="1525821895209" duration="40402000" />
-      <workItem from="1525995235399" duration="5006000" />
+      <workItem from="1525995235399" duration="5806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129405000" />
+    <option name="totallyTimeSpent" value="130205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1151" y="154" width="1191" height="1163" extended-state="0" />
@@ -840,7 +1534,7 @@
     <entry file="file://$PROJECT_DIR$/app/assets/config/manifest.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -858,7 +1552,7 @@
     <entry file="file://$USER_HOME$/.rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/webrick/config.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-703">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <caret line="7" column="11" lean-forward="false" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -866,7 +1560,7 @@
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
