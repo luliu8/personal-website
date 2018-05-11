@@ -19,19 +19,12 @@
 /.idea/*
 
 
-#Ignore all asset files in public folder
-/public/assets/*
 
 /node_modules
 /yarn-error.log
 
 .byebug_history
 
-#Ignore all pictures
-*.png
-*.jpeg
-*.jpg
 
-*.xml
 
 app/assets/images/carina_nebula_wide.jpg
