@@ -123,13 +123,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: italic;
 }
 
-/* sprites */
-.directory-icons-sprite, .logo:after, .logo h1, .search-field:before, .focus .search-field:before, .half .search-location-button, .half .search-location-button:hover, .half .search-location-button:focus, .full .search-location-button, .full .search-location-button.location-expanded:hover, .full .search-location-button.location-expanded:focus, .full .search-location-button.location-on, .search-swap-button, .navigation-picture, .navigation-picture:hover, .navigation-picture:focus, .navigation-picture:active, .icon-square-footer, .icon-mobile-merchant, .icon-left-arrow, .icon-right-arrow {
-  background: url(/assets/sprites/directory-icons-sprite.png) no-repeat;
-}
-.profile-icons-sprite, .icon-twitter, .icon-facebook, .reward-punch-card:before, .reward-cash:before, .reward-percent:before, .icon-image-previous, .icon-image-next, .profile-image-dot, .profile-image-dot:hover, .profile-image-dot:focus, .profile-image-dot.current {
-  background: url(/assets/sprites/profile-icons-sprite.png) no-repeat;
-}
 
 * {
   -webkit-box-sizing: border-box;
@@ -296,23 +289,7 @@ p {
   position: relative;
   left: -1px;
 }
-.icon-twitter {
-  background-position: 0 -42px;
-  height: 40px;
-  width: 40px;
-}
-.icon-facebook {
-  background-position: 0 -82px;
-  height: 40px;
-  width: 40px;
-}
-.icon-gplus {
-  background: url('/images/gplus.png') no-repeat;
-  height: 40px;
-  width: 40px;
-  display: inline-block;
-  vertical-align: middle;
-}
+
 .profile {
   font-size: 0.875em;
   line-height: 1.42857em;
@@ -749,7 +726,7 @@ p {
   transition: opacity 0.3s ease;
 }
 .menu-item-image.image-error:before {
-  background: #f2f2f2 url(/assets/public/broken-image.png) center 51% no-repeat;
+  background: #f2f2f2 center 51% no-repeat;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
@@ -1049,7 +1026,6 @@ p {
     left: 0;
   }
   .profile-image-dot:hover, .profile-image-dot:focus, .profile-image-dot.current {
-    background: url(/assets/sprites/profile-icons-hidpi-sprite.png) no-repeat;
     background-position: 0 -278px;
     background-size: 42px auto;
     height: 9px;
@@ -1317,7 +1293,6 @@ p {
     left: 0;
   }
   .profile-image-dot:hover, .profile-image-dot:focus, .profile-image-dot.current {
-    background: url(/assets/sprites/profile-icons-hidpi-sprite.png) no-repeat;
     background-position: 0 -278px;
     background-size: 42px auto;
     height: 9px;
@@ -2365,90 +2340,4 @@ p {
     min-width: 561px;
   }
 }
-@media screen and (-webkit-min-device-pixel-ratio: 1.5),  screen and (min-resolution: 144dpi) {
-  .logo:after {
-    background: url(/assets/sprites/directory-icons-hidpi-sprite.png) no-repeat;
-    background-position: 0 0;
-    background-size: 84px auto;
-    height: 26px;
-    width: 84px;
-  }
-  .logo h1 {
-    background: url(/assets/sprites/directory-icons-hidpi-sprite.png) no-repeat;
-    background-position: 0 -146px;
-    background-size: 84px auto;
-    height: 30px;
-    width: 30px;
-  }
-  .icon-square-footer {
-    background: url(/assets/sprites/directory-icons-hidpi-sprite.png) no-repeat;
-    background-position: 0 -176px;
-    background-size: 84px auto;
-    height: 22px;
-    width: 22px;
-  }
-  .icon-twitter {
-    background: url(/assets/sprites/profile-icons-hidpi-sprite.png) no-repeat;
-    background-position: 0 -42px;
-    background-size: 42px auto;
-    height: 40px;
-    width: 40px;
-  }
-  .icon-facebook {
-    background: url(/assets/sprites/profile-icons-hidpi-sprite.png) no-repeat;
-    background-position: 0 -82px;
-    background-size: 42px auto;
-    height: 40px;
-    width: 40px;
-  }
-  .icon-image-previous {
-    background: url(/assets/sprites/profile-icons-hidpi-sprite.png) no-repeat;
-    background-position: 0 -190px;
-    background-size: 42px auto;
-    height: 44px;
-    width: 25px;
-  }
-  .icon-image-next {
-    background: url(/assets/sprites/profile-icons-hidpi-sprite.png) no-repeat;
-    background-position: 0 -234px;
-    background-size: 42px auto;
-    height: 44px;
-    width: 25px;
-  }
-  .profile-image-dot {
-    background: url(/assets/sprites/profile-icons-hidpi-sprite.png) no-repeat;
-    background-position: 0 -287px;
-    background-size: 42px auto;
-    height: 9px;
-    width: 9px;
-  }
-  .profile-image-dot:hover, .profile-image-dot:focus, .profile-image-dot.current {
-    background: url(/assets/sprites/profile-icons-hidpi-sprite.png) no-repeat;
-    background-position: 0 -296px;
-    background-size: 42px auto;
-    height: 9px;
-    width: 9px;
-  }
-  .menu-item-image.image-error:before {
-    background-image: url(/assets/public/broken-image-hidpi.png);
-    background-size: 36px auto;
-  }
-  .image-error:before {
-    background-image: url(/assets/public/broken-image-hidpi.png);
-    background-size: 36px auto;
-  }
-  .icon-left-arrow {
-    background: url(/assets/sprites/directory-icons-hidpi-sprite.png) no-repeat;
-    background-position: 0 -268px;
-    background-size: 84px auto;
-    height: 12px;
-    width: 8px;
-  }
-  .icon-right-arrow {
-    background: url(/assets/sprites/directory-icons-hidpi-sprite.png) no-repeat;
-    background-position: 0 -256px;
-    background-size: 84px auto;
-    height: 12px;
-    width: 8px;
-  }
-}
+
