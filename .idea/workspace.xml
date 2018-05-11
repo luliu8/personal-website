@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8facac07-1759-41d9-8ab9-65d5580ec7e2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/myWebsite.iml" afterPath="$PROJECT_DIR$/.idea/myWebsite.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-    </list>
+    <list default="true" id="8facac07-1759-41d9-8ab9-65d5580ec7e2" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -84,16 +79,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="book.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/book.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="environment.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environment.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,12 +109,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="70" column="35" lean-forward="false" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+            <state relative-caret-position="499">
+              <caret line="80" column="42" lean-forward="true" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/config/manifest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -148,7 +145,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>menu-</find>
       <find>menu-category</find>
       <find>sqmarket</find>
       <find>image</find>
@@ -178,6 +174,7 @@
       <find>DONGDONG</find>
       <find>twitter</find>
       <find>visual</find>
+      <find>visual_recommn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -366,7 +363,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="application.js&#9;FILE&#9;file:///Users/luliu/Desktop/Ruby_on_Rails_projects/my-personal-website/app/assets/javascripts/application.js&#10;base&#9;FILE&#9;file:///Users/luliu/Desktop/Ruby_on_Rails_projects/my-personal-website/app/assets/stylesheets/base.css&#10;book.r&#9;FILE&#9;file:///Users/luliu/Desktop/Ruby_on_Rails_projects/my-personal-website/app/models/book.rb&#10;myst&#9;FILE&#9;file:///Users/luliu/Desktop/Ruby_on_Rails_projects/my-personal-website/app/assets/stylesheets/my_stylesheet.css&#10;gon.zoom_center&#9;null&#9;null&#10;controller&#9;FILE&#9;file:///Users/luliu/Desktop/Ruby_on_Rails_projects/my-personal-website/app/controllers/projects_controller.rb&#10;application.html&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/app/views/layouts/application.html.erb&#10;visual&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/app/assets/javascripts/visual_recommender.js&#10;routes&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/config/routes.rb&#10;book&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/app/models/book.rb&#10;book.rb&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/app/models/book.rb&#10;SCHEMA&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/db/schema.rb&#10;schema&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/db/schema.rb&#10;visual_recommender&#9;null&#9;null&#10;public/&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/public&#10;application.rb&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/config/application.rb&#10;application。rb&#9;null&#9;null&#10;projects_cont&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/app/controllers/projects_controller.rb&#10;application_controll&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/app/controllers/application_controller.rb&#10;database&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/config/database.yml&#10;data&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/config/database.yml" />
+    <property name="SearchEverywhereHistoryKey" value="manifest.js&#9;FILE&#9;file:///Users/luliu/Desktop/Ruby_on_Rails_projects/my-personal-website/app/assets/config/manifest.js&#10;application.js&#9;FILE&#9;file:///Users/luliu/Desktop/Ruby_on_Rails_projects/my-personal-website/app/assets/javascripts/application.js&#10;base&#9;FILE&#9;file:///Users/luliu/Desktop/Ruby_on_Rails_projects/my-personal-website/app/assets/stylesheets/base.css&#10;book.r&#9;FILE&#9;file:///Users/luliu/Desktop/Ruby_on_Rails_projects/my-personal-website/app/models/book.rb&#10;myst&#9;FILE&#9;file:///Users/luliu/Desktop/Ruby_on_Rails_projects/my-personal-website/app/assets/stylesheets/my_stylesheet.css&#10;gon.zoom_center&#9;null&#9;null&#10;controller&#9;FILE&#9;file:///Users/luliu/Desktop/Ruby_on_Rails_projects/my-personal-website/app/controllers/projects_controller.rb&#10;application.html&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/app/views/layouts/application.html.erb&#10;visual&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/app/assets/javascripts/visual_recommender.js&#10;routes&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/config/routes.rb&#10;book&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/app/models/book.rb&#10;book.rb&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/app/models/book.rb&#10;SCHEMA&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/db/schema.rb&#10;schema&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/db/schema.rb&#10;visual_recommender&#9;null&#9;null&#10;public/&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/public&#10;application.rb&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/config/application.rb&#10;application。rb&#9;null&#9;null&#10;projects_cont&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/app/controllers/projects_controller.rb&#10;application_controll&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/app/controllers/application_controller.rb&#10;database&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/config/database.yml&#10;data&#9;FILE&#9;file:///Users/luliu/Desktop/RoR_projects/myWebsite/config/database.yml" />
     <property name="settings.editor.selected.configurable" value="database.data.csv.formats" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -522,18 +519,17 @@
       <workItem from="1525297485729" duration="13517000" />
       <workItem from="1525821160735" duration="222000" />
       <workItem from="1525821895209" duration="40402000" />
-      <workItem from="1525995235399" duration="3396000" />
+      <workItem from="1525995235399" duration="3831000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127795000" />
+    <option name="totallyTimeSpent" value="128230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1027" y="212" width="1191" height="1163" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25413403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25413403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15517241" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -563,13 +559,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/initializers/assets.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/openseadragon-78841b3a3976fe945b619c5949e23da3f310c03de536bea9b97b495c94332af5.js" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20171107001431_create_books.rb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20171107001618_create_books.rb" />
@@ -848,9 +837,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="70" column="35" lean-forward="false" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+        <state relative-caret-position="499">
+          <caret line="80" column="42" lean-forward="true" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/config/manifest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
