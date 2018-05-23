@@ -16,8 +16,8 @@
 /tmp/*
 /log/.keep
 !/tmp/.keep
-/.idea/*
-
+.idea/*
+.idea/workspace.xml
 
 
 /node_modules
@@ -28,3 +28,7 @@
 
 
 app/assets/images/carina_nebula_wide.jpg
+
+.idea/workspace.xml
+
+.idea/workspace.xml
